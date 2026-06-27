@@ -1,0 +1,15 @@
+# files that should not be pushed into repo
+
+# virtual environments
+Kinematics/.venv
+
+# data
+Kinematics/
+
+# any zip files
+*.zip
+
+# ide
+.idea/
+.vscode/
+.DS_Store
