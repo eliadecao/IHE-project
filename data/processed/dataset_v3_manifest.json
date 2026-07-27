@@ -1,0 +1,27 @@
+{
+  "dataset_version": "v3",
+  "one_row_represents": "one session-aware scored operation",
+  "merge_keys": [
+    "session_licence",
+    "session_datetime",
+    "role",
+    "participant_id",
+    "task_clean",
+    "trial"
+  ],
+  "ecm_usm_assumption": 0,
+  "instrument_usms": [
+    1,
+    2,
+    3
+  ],
+  "pose_interpretation": "EndoscopePosition for PSMs is camera-relative and may have an unknown scale. No global/base-frame or millimetre claim is made.",
+  "recommended_cross_task_target": "percentage_score or target_fraction",
+  "recommended_same_task_target": "target_score may be used within a task",
+  "columns_not_recommended_as_primary_skill_features": [
+    "metadata columns",
+    "label columns",
+    "columns beginning qc_ (setup/session quality-control variables)",
+    "active_pair_usm_a and active_pair_usm_b (identifiers)"
+  ]
+}

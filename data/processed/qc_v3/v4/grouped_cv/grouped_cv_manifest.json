@@ -1,0 +1,28 @@
+{
+  "input_path": "C:\\Users\\ROG\\IHE-project\\data\\processed\\qc_v3\\v4\\dataset_v4_prefiltered.csv",
+  "input_shape": [
+    191,
+    414
+  ],
+  "grouping_method": "role + participant_id",
+  "n_unique_participant_groups": 40,
+  "requested_n_splits": 5,
+  "actual_n_splits": 5,
+  "n_rows_assigned": 191,
+  "participant_leakage_detected": false,
+  "fold_operation_counts": {
+    "1": 39,
+    "2": 38,
+    "3": 38,
+    "4": 38,
+    "5": 38
+  },
+  "fold_participant_counts": {
+    "1": 9,
+    "2": 7,
+    "3": 8,
+    "4": 8,
+    "5": 8
+  },
+  "methodology_note": "All operations from one participant_group are assigned to exactly one test fold. The same frozen folds should be used for every model comparison."
+}

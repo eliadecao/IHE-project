@@ -1,0 +1,22 @@
+{
+  "input_path": "C:\\Users\\ROG\\IHE-project\\data\\processed\\qc_v3\\dataset_v3_model.csv",
+  "input_shape": [
+    191,
+    467
+  ],
+  "n_numeric_features_input": 449,
+  "n_all_missing_removed": 20,
+  "n_constant_removed": 33,
+  "n_near_constant_flagged": 0,
+  "drop_near_constant": false,
+  "prefiltered_shape": [
+    191,
+    414
+  ],
+  "n_numeric_features_prefiltered": 396,
+  "correlation_threshold": 0.99,
+  "n_high_correlation_pairs": 470,
+  "n_features_global_corr_would_drop": 105,
+  "global_correlation_dataset_written": false,
+  "methodology_note": "Use dataset_v4_prefiltered.csv for final modelling. Apply CorrelationFilter inside the cross-validation pipeline. Do not use globally correlation-pruned data for final unbiased performance estimation."
+}

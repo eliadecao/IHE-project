@@ -1,0 +1,73 @@
+session_licence,session_datetime,role,participant_id,task_clean,trial,file_name,target_score,percentage_score,_merge
+11-14_aug_2025,13_11.33.24,expert,7,glove_cut,1,DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_glove cut_1.csv,,,left_only
+11-14_aug_2025,13_11.33.24,expert,7,ring_rollercoaster,1,DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_ring rollercoaster_1.csv,,,left_only
+11-14_aug_2025,13_11.33.24,expert,7,sea_spikes,1,DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_sea spikes_1.csv,,,left_only
+11-14_aug_2025,14_10.45.28,expert,8,glove_cut,1,DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_glove cut_1.csv,,,left_only
+11-14_aug_2025,14_10.45.28,expert,8,ring_rollercoaster,1,DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_ring rollercoaster_1.csv,,,left_only
+11-14_aug_2025,14_10.45.28,expert,8,sea_spikes,1,DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_sea spikes_1.csv,,,left_only
+14-16_feb_2024,15_09.05.01,trainee,1,chicken_thigh,1,DVST_XI_14-16_Feb_2024_15_09.05.01_trainee_1_chicken thigh_1.csv,,,left_only
+14-16_feb_2024,15_09.05.01,trainee,2,chicken_thigh,1,DVST_XI_14-16_Feb_2024_15_09.05.01_trainee_2_chicken thigh_1.csv,,,left_only
+14-16_feb_2024,15_09.05.01,trainee,3,chicken_thigh,1,DVST_XI_14-16_Feb_2024_15_09.05.01_trainee_3_chicken thigh_1.csv,,,left_only
+14-16_feb_2024,15_09.05.01,trainee,4,chicken_thigh,1,DVST_XI_14-16_Feb_2024_15_09.05.01_trainee_4_chicken thigh_1.csv,,,left_only
+14-16_feb_2024,15_09.05.01,trainee,5,chicken_thigh,1,DVST_XI_14-16_Feb_2024_15_09.05.01_trainee_5_chicken thigh_1.csv,,,left_only
+14-16_feb_2024,16_08.32.59,trainee,1,cyst_model,1,DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_cyst model_1.csv,,,left_only
+14-16_feb_2024,16_08.32.59,trainee,2,cyst_model,1,DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_cyst model_1.csv,,,left_only
+14-16_feb_2024,16_08.32.59,trainee,3,cyst_model,1,DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_cyst model_1.csv,,,left_only
+14-16_feb_2024,16_08.32.59,trainee,4,cyst_model,1,DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_cyst model_1.csv,,,left_only
+14-16_feb_2024,16_08.32.59,trainee,5,cyst_model,1,DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_cyst model_1.csv,,,left_only
+19-22_may_2025,21_09.43.23,expert,5,glove_cut,1,DVST_XI_19-22_May_2025_21_09.43.23_expert_5_glove cut_1.csv,,,left_only
+19-22_may_2025,21_09.43.23,expert,5,ring_rollercoaster,1,DVST_XI_19-22_May_2025_21_09.43.23_expert_5_ring rollercoaster_1.csv,,,left_only
+19-22_may_2025,21_09.43.23,expert,5,sea_spikes,1,DVST_XI_19-22_May_2025_21_09.43.23_expert_5_sea spikes_1.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,37,glove_cut,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_glove cut_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,37,suture,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_suture_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,38,glove_cut,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_glove cut_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,38,suture,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_suture_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,39,glove_cut,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_glove cut_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,39,suture,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_suture_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,40,glove_cut,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_glove cut_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,40,suture,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_suture_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,41,glove_cut,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_glove cut_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,41,suture,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_suture_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,42,glove_cut,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_glove cut_2.csv,,,left_only
+19-22_may_2025,22_09.34.36,trainee,42,suture,2,DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_suture_2.csv,,,left_only
+6-8_mar_2025,07_11.56.53,trainee,33,glove_cut,2,DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_glove cut_2.csv,,,left_only
+6-8_mar_2025,07_11.56.53,trainee,33,ring_rollercoaster,2,DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_ring rollercoaster_2.csv,,,left_only
+6-8_mar_2025,07_11.56.53,trainee,33,suture,2,DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_suture_2.csv,,,left_only
+6-8_mar_2025,07_11.56.53,trainee,35,glove_cut,2,DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_glove cut_2.csv,,,left_only
+6-8_mar_2025,07_11.56.53,trainee,35,ring_rollercoaster,2,DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_ring rollercoaster_2.csv,,,left_only
+6-8_mar_2025,07_11.56.53,trainee,35,suture,1,DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_suture_1.csv,,,left_only
+6-8_mar_2025,07_11.56.53,trainee,35,suture,2,DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_suture_2.csv,,,left_only
+6-8_mar_2025,08_08.21.32,expert,3,glove_cut,1,DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_glove cut_1.csv,,,left_only
+6-8_mar_2025,08_08.21.32,expert,3,ring_rollercoaster,1,DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_ring rollercoaster_1.csv,,,left_only
+6-8_mar_2025,08_08.21.32,expert,3,sea_spikes,1,DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_sea spikes_1.csv,,,left_only
+7-11_jul_2025,10_09.40.17,expert,6,glove_cut,1,DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_glove cut_1.csv,,,left_only
+7-11_jul_2025,10_09.40.17,expert,6,ring_rollercoaster,1,DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_ring rollercoaster_1.csv,,,left_only
+7-11_jul_2025,10_09.40.17,expert,6,sea_spikes,1,DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_sea spikes_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,10,chicken_thigh,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_chicken thigh_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,10,ring_rollercoaster,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_ring rollercoaster_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,10,sea_spikes,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_sea spikes_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,11,chicken_thigh,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_chicken thigh_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,11,ring_rollercoaster,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_ring rollercoaster_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,11,sea_spikes,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_sea spikes_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,6,chicken_thigh,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_chicken thigh_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,6,ring_rollercoaster,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_ring rollercoaster_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,6,sea_spikes,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_sea spikes_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,7,chicken_thigh,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_chicken thigh_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,7,ring_rollercoaster,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_ring rollercoaster_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,7,sea_spikes,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_sea spikes_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,8,chicken_thigh,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_chicken thigh_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,8,ring_rollercoaster,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_ring rollercoaster_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,8,sea_spikes,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_sea spikes_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,9,chicken_thigh,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_chicken thigh_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,9,ring_rollercoaster,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_ring rollercoaster_1.csv,,,left_only
+7-11_mar_2024,10_08.59.30,trainee,9,sea_spikes,1,DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_sea spikes_1.csv,,,left_only
+7-11_mar_2024,11_08.56.20,trainee,10,cyst_model,1,DVST_XI_7-11_Mar_2024_11_08.56.20_trainee_10_cyst model_1.csv,,,left_only
+7-11_mar_2024,11_08.56.20,trainee,11,cyst_model,1,DVST_XI_7-11_Mar_2024_11_08.56.20_trainee_11_cyst model_1.csv,,,left_only
+7-11_mar_2024,11_08.56.20,trainee,7,cyst_model,1,DVST_XI_7-11_Mar_2024_11_08.56.20_trainee_7_cyst model_1.csv,,,left_only
+7-11_mar_2024,11_08.56.20,trainee,8,cyst_model,1,DVST_XI_7-11_Mar_2024_11_08.56.20_trainee_8_cyst model_1.csv,,,left_only
+7-11_mar_2024,11_08.56.20,trainee,9,cyst_model,1,DVST_XI_7-11_Mar_2024_11_08.56.20_trainee_9_cyst model_1.csv,,,left_only
+griffin_29_sep-1_oct_2024,01_10.39.05,trainee,17,camera_target,1,DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_17_camera target _1.csv,,,left_only
+griffin_29_sep-1_oct_2024,01_10.39.05,trainee,18,camera_target,1,DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_18_camera target _1.csv,,,left_only
+griffin_29_sep-1_oct_2024,01_10.39.05,trainee,19,camera_target,1,DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_19_camera target _1.csv,,,left_only
+griffin_29_sep-1_oct_2024,01_10.39.05,trainee,20,camera_target,1,DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_20_camera target _1.csv,,,left_only
+griffin_29_sep-1_oct_2024,01_10.39.05,trainee,21,camera_target,1,DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_21_camera target _1.csv,,,left_only

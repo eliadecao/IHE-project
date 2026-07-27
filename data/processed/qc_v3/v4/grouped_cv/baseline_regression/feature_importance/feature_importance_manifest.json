@@ -1,0 +1,16 @@
+{
+  "input_directory": "C:\\Users\\ROG\\IHE-project\\data\\processed\\qc_v3\\v4\\grouped_cv\\baseline_regression",
+  "output_directory": "C:\\Users\\ROG\\IHE-project\\data\\processed\\qc_v3\\v4\\grouped_cv\\baseline_regression\\feature_importance",
+  "models_analysed": [
+    "ridge",
+    "elastic_net"
+  ],
+  "n_cv_folds": 5,
+  "top_n_plotted": 30,
+  "interpretation_notes": [
+    "Coefficients are comparable because the modelling pipeline standardised features inside each fold.",
+    "Sign consistency indicates whether a feature was associated with higher or lower scores in the same direction across folds.",
+    "Elastic Net zero coefficients indicate features excluded by regularisation in that fitted fold.",
+    "Coefficient magnitude describes model association, not causal importance."
+  ]
+}
