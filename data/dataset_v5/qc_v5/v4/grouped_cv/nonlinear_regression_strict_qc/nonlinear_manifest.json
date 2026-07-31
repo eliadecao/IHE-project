@@ -1,0 +1,47 @@
+{
+  "input_path": "C:\\Users\\ROG\\IHE-project\\data\\dataset_v5\\qc_v5\\v4\\grouped_cv\\dataset_v4_grouped_folds.csv",
+  "output_directory": "C:\\Users\\ROG\\IHE-project\\data\\dataset_v5\\qc_v5\\v4\\grouped_cv\\nonlinear_regression_strict_qc",
+  "target": "target_score",
+  "n_rows": 191,
+  "n_participant_groups": 40,
+  "n_clean_numeric_features": 335,
+  "task_included": true,
+  "n_random_search_iterations": 12,
+  "models": [
+    "random_forest",
+    "extra_trees",
+    "hist_gradient_boosting"
+  ],
+  "methodology": [
+    "The previously frozen participant-grouped outer folds were used unchanged.",
+    "Correlation filtering, imputation and task encoding were fitted on training data only.",
+    "Hyperparameters were selected by grouped inner cross-validation using MAE.",
+    "Overall results were calculated from out-of-fold predictions."
+  ],
+  "overall_results": [
+    {
+      "model": "extra_trees",
+      "n_oof_predictions": 191,
+      "mae": 2.8521929037310407,
+      "rmse": 3.5729090649662205,
+      "r2": 0.43311819261447604,
+      "spearman_rho": 0.5955753184912509
+    },
+    {
+      "model": "random_forest",
+      "n_oof_predictions": 191,
+      "mae": 2.9625084204707175,
+      "rmse": 3.6976482167051294,
+      "r2": 0.3928447198303264,
+      "spearman_rho": 0.5705826114844151
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "n_oof_predictions": 191,
+      "mae": 3.206054486578389,
+      "rmse": 4.002932052610875,
+      "r2": 0.28845064354480265,
+      "spearman_rho": 0.5017177337140168
+    }
+  ]
+}

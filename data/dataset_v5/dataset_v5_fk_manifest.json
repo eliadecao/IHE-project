@@ -1,0 +1,17 @@
+{
+  "dataset_version": "v5_fk",
+  "one_row_represents": "one session-aware scored operation",
+  "raw_source": "original DVST telemetry",
+  "cartesian_source": "supervisor FK optimiser True_Tip_X/Y/Z and True_Tip_Matrix",
+  "coordinate_frame": "calibrated global/base-referenced output from FK script",
+  "joint_features": "retained from original USMJointValues",
+  "merge_keys": [
+    "session_licence",
+    "session_datetime",
+    "role",
+    "participant_id",
+    "task_clean",
+    "trial"
+  ],
+  "output": "C:\\Users\\ROG\\IHE-project\\data\\dataset_v5\\dataset_v5_fk.csv"
+}

@@ -10,7 +10,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 
 
 DEFAULT_INPUT = Path(
-    r"C:\Users\ROG\IHE-project\data\processed\qc_v3\dataset_v3_model.csv"
+    "C:/Users/ROG/IHE-project/data/dataset_v5/qc_v5/dataset_v5_model.csv"
 )
 
 
@@ -111,7 +111,7 @@ def parse_args():
         "--input",
         type=Path,
         default=DEFAULT_INPUT,
-        help="Path to qc_v3/dataset_v3_model.csv",
+        help="Path to qc_v5/dataset_v5_model.csv",
     )
     parser.add_argument(
         "--output-dir",
@@ -318,7 +318,7 @@ def main():
     if df["target_score"].isna().any():
         raise ValueError(
             "Input still contains missing target_score values. "
-            "Use qc_v3/dataset_v3_model.csv."
+            "Use qc_v5/dataset_v5_model.csv."
         )
 
     feature_cols = numeric_feature_columns(df)
@@ -385,7 +385,7 @@ def main():
             errors="ignore",
         )
         global_pruned.to_csv(
-            output_dir / "dataset_v4_global_corr_exploratory.csv",
+            output_dir / "dataset_v6_global_corr_exploratory.csv",
             index=False,
         )
 

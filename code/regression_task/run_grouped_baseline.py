@@ -21,7 +21,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 DEFAULT_INPUT = Path(
-    r"C:\Users\ROG\IHE-project\data\processed\qc_v3\v4\grouped_cv"
+    r"C:\Users\ROG\IHE-project\data\dataset_v5\qc_v5\v4\grouped_cv"
     r"\dataset_v4_grouped_folds.csv"
 )
 

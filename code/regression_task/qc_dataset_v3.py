@@ -8,7 +8,8 @@ import numpy as np
 import pandas as pd
 
 
-DEFAULT_INPUT = Path(r"C:\Users\ROG\IHE-project\data\processed\dataset_v3.csv")
+# DEFAULT_INPUT = Path(r"C:\Users\ROG\IHE-project\data\processed\dataset_v3.csv")
+DEFAULT_INPUT = Path(r"C:\Users\ROG\IHE-project\data\dataset_v5\dataset_v5_fk.csv")
 
 
 def parse_args():
@@ -31,7 +32,7 @@ def get_numeric_features(df, excluded):
 def main():
     args = parse_args()
     input_path = args.input
-    output_dir = args.output_dir or (input_path.parent / "qc_v3")
+    output_dir = args.output_dir or (input_path.parent / "qc_v5")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(input_path)
@@ -61,7 +62,7 @@ def main():
     clean = df.copy()
     clean.loc[unscored_mask, ["target_score", "percentage_score"]] = np.nan
     model_df = clean.dropna(subset=["target_score"]).copy()
-    model_df.to_csv(output_dir / "dataset_v3_model.csv", index=False)
+    model_df.to_csv(output_dir / "dataset_v5_model.csv", index=False)
 
     metadata_cols = {
         "file_name", "role", "participant_id", "task", "task_clean", "trial",
