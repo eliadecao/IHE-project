@@ -1,0 +1,85 @@
+{
+  "input_path": "C:\\Users\\ROG\\IHE-project\\data\\v5_fk_corrected\\qc_v5\\v4\\grouped_cv\\dataset_v4_grouped_folds.csv",
+  "output_dir": "C:\\Users\\ROG\\IHE-project\\data\\v5_fk_corrected\\qc_v5\\v4\\grouped_cv\\ablation_analysis",
+  "target": "target_score",
+  "n_rows": 248,
+  "n_participant_groups": 42,
+  "n_all_kinematic_features": 189,
+  "n_no_qc_kinematic_features": 183,
+  "removed_qc_like_features": [
+    "USM0_pose_global_rotation_orthogonality_error_max",
+    "USM0_pose_global_rotation_orthogonality_error_mean",
+    "USM2_pose_global_rotation_orthogonality_error_max",
+    "USM2_pose_global_rotation_orthogonality_error_mean",
+    "USM3_pose_global_rotation_orthogonality_error_max",
+    "USM3_pose_global_rotation_orthogonality_error_mean"
+  ],
+  "experiments": {
+    "A_kinematics_all": "All leakage-safe kinematic features, excluding qc_ columns.",
+    "B_kinematics_no_qc": "As A, additionally excluding rotation/data-quality proxy features.",
+    "C_kinematics_no_qc_plus_task": "As B, with task_clean one-hot encoded inside each fold."
+  },
+  "methodology": [
+    "Outer folds were fixed before modelling.",
+    "All preprocessing was learned using training-fold data only.",
+    "Hyperparameters were tuned with grouped inner cross-validation.",
+    "Task one-hot encoding was performed inside the pipeline.",
+    "Overall metrics were calculated from out-of-fold predictions."
+  ],
+  "overall_results": [
+    {
+      "experiment": "A_kinematics_all",
+      "model": "ridge",
+      "n_oof_predictions": 248,
+      "mae": 2.6778276591801204,
+      "rmse": 3.345124708803268,
+      "r2": 0.4418714109708335,
+      "spearman_rho": 0.6159381467976872
+    },
+    {
+      "experiment": "C_kinematics_no_qc_plus_task",
+      "model": "ridge",
+      "n_oof_predictions": 248,
+      "mae": 2.7129270099490888,
+      "rmse": 3.3983008963397907,
+      "r2": 0.42398565049112213,
+      "spearman_rho": 0.6151777001160195
+    },
+    {
+      "experiment": "B_kinematics_no_qc",
+      "model": "ridge",
+      "n_oof_predictions": 248,
+      "mae": 2.722848068569433,
+      "rmse": 3.4095327991779745,
+      "r2": 0.4201717275108212,
+      "spearman_rho": 0.6147189866871918
+    },
+    {
+      "experiment": "A_kinematics_all",
+      "model": "elastic_net",
+      "n_oof_predictions": 248,
+      "mae": 2.7676479988145086,
+      "rmse": 3.4562679823177755,
+      "r2": 0.40416712880960215,
+      "spearman_rho": 0.5989677220438309
+    },
+    {
+      "experiment": "C_kinematics_no_qc_plus_task",
+      "model": "elastic_net",
+      "n_oof_predictions": 248,
+      "mae": 2.814907807374143,
+      "rmse": 3.5317624065008966,
+      "r2": 0.377853587228538,
+      "spearman_rho": 0.5897098358861002
+    },
+    {
+      "experiment": "B_kinematics_no_qc",
+      "model": "elastic_net",
+      "n_oof_predictions": 248,
+      "mae": 2.8193731512796396,
+      "rmse": 3.537654554678602,
+      "r2": 0.3757759634838047,
+      "spearman_rho": 0.5907621552567898
+    }
+  ]
+}

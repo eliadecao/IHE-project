@@ -1,0 +1,12 @@
+{
+  "model": "MLPRegressor",
+  "target": "target_score",
+  "n_operations": 248,
+  "n_candidate_features": 194,
+  "mae": 4.737815753937499,
+  "rmse": 7.33291412595884,
+  "r2": -1.6820251171308653,
+  "spearman_rho": 0.48168854252422194,
+  "extra_trees_mae": 2.5722,
+  "mae_difference_mlp_minus_et": 2.1656157539374994
+}
