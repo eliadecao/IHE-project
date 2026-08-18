@@ -1,0 +1,39 @@
+{
+  "dataset_version": "v7_fk_camera",
+  "one_row_represents": "one session-aware scored operation",
+  "raw_dvst_used": false,
+  "feature_source": "supervisor FK optimiser output only",
+  "cartesian_source": "True_Tip_X, True_Tip_Y, True_Tip_Z",
+  "rotation_source": "True_Tip_Matrix",
+  "coordinate_frame": "calibrated global/base-referenced FK output",
+  "camera_usm": 1,
+  "camera_role": "ECM_Camera",
+  "primary_tool_usms": [
+    0,
+    2
+  ],
+  "psm_usms": [
+    0,
+    2,
+    3
+  ],
+  "camera_speed_threshold_m_s": 0.005,
+  "camera_min_move_duration_s": 0.2,
+  "joint_features_included": false,
+  "setup_features_included": false,
+  "old_endoscope_position_features_included": false,
+  "camera_features_included": true,
+  "merge_keys": [
+    "session_licence",
+    "session_datetime",
+    "role",
+    "participant_id",
+    "task_clean",
+    "trial"
+  ],
+  "number_fk_feature_rows": 261,
+  "number_aggregated_label_rows": 306,
+  "number_final_merged_rows": 248,
+  "output": "C:\\Users\\ROG\\IHE-project\\data\\v7_fk_camera\\dataset_v7_fk_camera.csv",
+  "merge_audit": "C:\\Users\\ROG\\IHE-project\\data\\v7_fk_camera\\dataset_v7_fk_camera_merge_audit.csv"
+}
