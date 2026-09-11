@@ -1,7 +1,7 @@
 {
   "input_path": "C:\\Users\\ROG\\IHE-project\\data\\v7_fk_camera\\qc_v7\\dataset_v7_model.csv",
   "input_shape": [
-    248,
+    240,
     282
   ],
   "n_numeric_features_input": 238,
@@ -10,13 +10,13 @@
   "n_near_constant_flagged": 1,
   "drop_near_constant": false,
   "prefiltered_shape": [
-    248,
+    240,
     269
   ],
   "n_numeric_features_prefiltered": 225,
   "correlation_threshold": 0.99,
-  "n_high_correlation_pairs": 345,
-  "n_features_global_corr_would_drop": 69,
+  "n_high_correlation_pairs": 303,
+  "n_features_global_corr_would_drop": 64,
   "global_correlation_dataset_written": false,
   "methodology_note": "Use dataset_v4_prefiltered.csv for final modelling. Apply CorrelationFilter inside the cross-validation pipeline. Do not use globally correlation-pruned data for final unbiased performance estimation."
 }
