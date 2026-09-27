@@ -12,7 +12,7 @@ from scipy.stats import wilcoxon
 
 DEFAULT_GROUPED_DIR = Path(
     # r"C:\Users\ROG\IHE-project\data\processed\qc_v3\v4\grouped_cv"
-    r"C:/Users/ROG/IHE-project/data/dataset_v5/qc_v5/v4/grouped_cv"
+    r"C:/Users/ROG/IHE-project/data/v7_fk_camera/qc_v7/v4/grouped_cv"
 )
 
 MODEL_FILES = {

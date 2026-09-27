@@ -10,7 +10,7 @@ from sklearn.model_selection import GroupKFold
 
 
 DEFAULT_INPUT = Path(
-    r"C:\Users\ROG\IHE-project\data\dataset_v5\qc_v5\v4\dataset_v4_prefiltered.csv"
+    r"C:\Users\ROG\IHE-project\data\v7_fk_camera\qc_v7\v4\dataset_v4_prefiltered.csv"
 )
 
 

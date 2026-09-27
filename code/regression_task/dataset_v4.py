@@ -10,7 +10,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 
 
 DEFAULT_INPUT = Path(
-    "C:/Users/ROG/IHE-project/data/dataset_v5/qc_v5/dataset_v5_model.csv"
+    r"C:\Users\ROG\IHE-project\data\v7_fk_camera\qc_v7\dataset_v7_model.csv"
 )
 
 
@@ -151,9 +151,24 @@ def parse_args():
 
 
 def numeric_feature_columns(df: pd.DataFrame) -> list[str]:
+    excluded_score_columns = {
+        "target_score",
+        "percentage_score",
+        "target_fraction",
+        "target_score_std",
+        "percentage_score_std",
+        "n_label_records",
+        "n_applicable_mgears_domains",
+        "mgears_domain_score_sum",
+        "target_minus_domain_sum",
+        "inferred_max_score",
+    }
+
     return [
         c for c in df.columns
         if c not in METADATA_COLUMNS
+        and c not in excluded_score_columns
+        and not c.lower().startswith("mgears_")
         and pd.api.types.is_numeric_dtype(df[c])
     ]
 
