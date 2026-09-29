@@ -1,0 +1,14 @@
+column,reason
+qc_fk_rows_removed_missing_timestamp_or_usm,constant
+qc_fk_timestamp_scale,constant
+qc_fk_valid_xyz_fraction,constant
+fk_camera_usms,constant
+fk_instrument_usm_count,constant
+fk_camera_usm_count,constant
+USM0_pose_global_matrix_valid_fraction,constant
+USM2_pose_global_matrix_valid_fraction,constant
+USM3_pose_global_matrix_valid_fraction,constant
+camera_matrix_valid_fraction,constant
+USM2_pose_global_active,constant
+n_unique_target_scores,constant
+label_disagreement_flag,constant

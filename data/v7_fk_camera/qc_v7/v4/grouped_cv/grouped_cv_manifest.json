@@ -1,0 +1,28 @@
+{
+  "input_path": "C:\\Users\\ROG\\IHE-project\\data\\v7_fk_camera\\qc_v7\\v4\\dataset_v4_prefiltered.csv",
+  "input_shape": [
+    240,
+    269
+  ],
+  "grouping_method": "role + participant_id",
+  "n_unique_participant_groups": 42,
+  "requested_n_splits": 5,
+  "actual_n_splits": 5,
+  "n_rows_assigned": 240,
+  "participant_leakage_detected": false,
+  "fold_operation_counts": {
+    "1": 48,
+    "2": 49,
+    "3": 49,
+    "4": 47,
+    "5": 47
+  },
+  "fold_participant_counts": {
+    "1": 8,
+    "2": 9,
+    "3": 9,
+    "4": 8,
+    "5": 8
+  },
+  "methodology_note": "All operations from one participant_group are assigned to exactly one test fold. The same frozen folds should be used for every model comparison."
+}

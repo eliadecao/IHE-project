@@ -2,6 +2,7 @@
 
 # virtual environments
 Kinematics/.venv
+.venv/
 
 # data
 Kinematics/

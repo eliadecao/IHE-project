@@ -1,0 +1,30 @@
+{
+  "input": "C:\\Users\\ROG\\IHE-project\\data\\v5_fk_corrected\\qc_v5\\v4\\grouped_cv\\dataset_v4_grouped_folds.csv",
+  "n_operations": 248,
+  "n_participants": 42,
+  "n_numeric_features": 193,
+  "outer_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "domain_columns": [
+    "mgears_depth_perception",
+    "mgears_dexterity_with_multiple_wristed_instruments",
+    "mgears_efficiency_flow_of_operation",
+    "mgears_force_sensitivity_and_tissue_handling",
+    "mgears_master_manipulator_workspace_robotic_control",
+    "mgears_overall_performance_quality_of_the_final_product"
+  ],
+  "domain_min_score": 1,
+  "domain_max_score": 5,
+  "correlation_threshold": 0.98,
+  "random_search_iter": 12,
+  "direct_total_benchmark": {
+    "mae": 2.5722,
+    "rmse": 3.2003,
+    "r2": 0.4892
+  }
+}

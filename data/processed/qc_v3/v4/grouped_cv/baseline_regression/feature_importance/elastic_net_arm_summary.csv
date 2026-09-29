@@ -1,0 +1,5 @@
+arm,n_features,total_stability_weighted_importance,mean_feature_importance,n_stable_features,model
+USM2,70,3.476003563102197,0.049657193758602815,22,elastic_net
+USM1,84,2.6154788759756804,0.031136653285424767,22,elastic_net
+USM0,28,1.2458698294563921,0.04449535105201401,6,elastic_net
+USM3,54,0.8344006021750096,0.015451863003240918,6,elastic_net

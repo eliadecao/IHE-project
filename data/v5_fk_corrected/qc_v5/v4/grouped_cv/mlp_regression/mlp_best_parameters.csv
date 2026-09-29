@@ -1,0 +1,6 @@
+fold,model__learning_rate_init,model__hidden_layer_sizes,model__alpha,model__activation
+1,0.001,"(16,)",1.0,tanh
+2,0.001,"(16,)",1.0,tanh
+3,0.0001,"(64,)",0.1,relu
+4,0.0005,"(32, 16)",1.0,relu
+5,0.001,"(16,)",1.0,tanh

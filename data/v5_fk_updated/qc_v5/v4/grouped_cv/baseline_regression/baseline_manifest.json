@@ -1,0 +1,58 @@
+{
+  "input_path": "C:\\Users\\ROG\\IHE-project\\data\\v5_fk_updated\\qc_v5\\v4\\grouped_cv\\dataset_v4_grouped_folds.csv",
+  "output_dir": "C:\\Users\\ROG\\IHE-project\\data\\v5_fk_updated\\qc_v5\\v4\\grouped_cv\\baseline_regression",
+  "target": "target_score",
+  "n_rows": 239,
+  "n_participant_groups": 42,
+  "n_outer_folds": 5,
+  "n_numeric_features_input": 189,
+  "correlation_threshold": 0.99,
+  "inner_grouped_cv_splits_requested": 4,
+  "models": [
+    "dummy_mean",
+    "linear_regression",
+    "ridge",
+    "elastic_net"
+  ],
+  "methodology": [
+    "The outer test folds were frozen before modelling.",
+    "All preprocessing was fitted using training-fold data only.",
+    "Correlation filtering was performed inside each outer fold.",
+    "Ridge and Elastic Net hyperparameters were selected using grouped inner cross-validation.",
+    "All reported overall metrics use out-of-fold predictions."
+  ],
+  "overall_metrics": [
+    {
+      "model": "elastic_net",
+      "n_oof_predictions": 239,
+      "mae": 2.748921241609232,
+      "rmse": 3.5497536490648995,
+      "r2": 0.3724267759493102,
+      "spearman_rho": 0.6343505364630992
+    },
+    {
+      "model": "ridge",
+      "n_oof_predictions": 239,
+      "mae": 2.7995269976117942,
+      "rmse": 3.689930193045959,
+      "r2": 0.3218835536226592,
+      "spearman_rho": 0.5944599032610729
+    },
+    {
+      "model": "dummy_mean",
+      "n_oof_predictions": 239,
+      "mae": 3.6432324928429862,
+      "rmse": 4.549874443815489,
+      "r2": -0.031019315582667906,
+      "spearman_rho": -0.20613003434443566
+    },
+    {
+      "model": "linear_regression",
+      "n_oof_predictions": 239,
+      "mae": 14.208961488732186,
+      "rmse": 74.19007403523662,
+      "r2": -273.13190626128005,
+      "spearman_rho": 0.35270618268830545
+    }
+  ]
+}

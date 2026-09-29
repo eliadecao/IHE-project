@@ -1,0 +1,25 @@
+{
+  "dataset_version": "v5_fk_only",
+  "one_row_represents": "one session-aware scored operation",
+  "raw_dvst_used": false,
+  "feature_source": "supervisor FK optimiser output only",
+  "cartesian_source": "True_Tip_X, True_Tip_Y, True_Tip_Z",
+  "rotation_source": "True_Tip_Matrix",
+  "coordinate_frame": "calibrated global/base-referenced FK output",
+  "joint_features_included": false,
+  "setup_features_included": false,
+  "old_endoscope_position_features_included": false,
+  "merge_keys": [
+    "session_licence",
+    "session_datetime",
+    "role",
+    "participant_id",
+    "task_clean",
+    "trial"
+  ],
+  "number_fk_feature_rows": 261,
+  "number_aggregated_label_rows": 306,
+  "number_final_merged_rows": 248,
+  "output": "C:\\Users\\ROG\\IHE-project\\data\\v5_fk_updated\\dataset_v5_fk_only.csv",
+  "merge_audit": "C:\\Users\\ROG\\IHE-project\\data\\v5_fk_updated\\dataset_v5_fk_only_merge_audit.csv"
+}

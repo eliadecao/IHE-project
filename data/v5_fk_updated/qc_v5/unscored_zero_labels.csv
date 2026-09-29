@@ -1,0 +1,10 @@
+file_name,role,participant_id,task_clean,trial,target_score,percentage_score
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_glove cut_1.csv,trainee,1,glove_cut,1,0.0,0.0
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_ring rollercoaster_1.csv,trainee,1,ring_rollercoaster,1,0.0,0.0
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_sea spikes_1.csv,trainee,1,sea_spikes,1,0.0,0.0
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_ring rollercoaster_2.csv,trainee,1,ring_rollercoaster,2,0.0,0.0
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_glove cut_2.csv,trainee,4,glove_cut,2,0.0,0.0
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_ring rollercoaster_2.csv,trainee,4,ring_rollercoaster,2,0.0,0.0
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_sea spikes_2.csv,trainee,4,sea_spikes,2,0.0,0.0
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_suture_2.csv,trainee,4,suture,2,0.0,0.0
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_6_camera target_1.csv,trainee,6,camera_target,1,0.0,0.0

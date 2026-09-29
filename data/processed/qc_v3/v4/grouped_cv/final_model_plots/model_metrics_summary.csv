@@ -1,0 +1,7 @@
+model,mae,rmse,r2,spearman_rho
+Dummy,3.81,4.79,-0.02,
+Ridge,3.01,3.93,0.315,0.58
+Elastic Net,3.01,3.83,0.348,0.57
+Random Forest,2.8126,3.5268,0.4477,0.6197
+Extra Trees,2.7747,3.4169,0.4815,0.6394
+HistGradientBoosting,2.9822,3.7538,0.3743,0.55

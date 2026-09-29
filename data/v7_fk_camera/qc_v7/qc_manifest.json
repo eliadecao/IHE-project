@@ -1,0 +1,30 @@
+{
+  "input_shape": [
+    240,
+    282
+  ],
+  "n_unscored_zero_labels": 0,
+  "model_shape": [
+    240,
+    282
+  ],
+  "n_numeric_feature_columns": 238,
+  "n_high_missingness_columns": 12,
+  "feature_status_counts": {
+    "variable": 224,
+    "constant": 13,
+    "near_constant": 1
+  },
+  "n_high_correlation_pairs": 303,
+  "n_duplicate_operation_rows": 0,
+  "target_summary": {
+    "count": 240.0,
+    "mean": 19.6125,
+    "std": 4.5292921574677365,
+    "min": 7.0,
+    "25%": 16.0,
+    "50%": 19.0,
+    "75%": 23.0,
+    "max": 30.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "C:\\Users\\ROG\\IHE-project\\data\\processed\\qc_v3\\v4\\grouped_cv\\dataset_v4_grouped_folds.csv",
+  "output_directory": "C:\\Users\\ROG\\IHE-project\\data\\processed\\qc_v3\\v4\\grouped_cv\\extra_trees_explainability",
+  "target": "target_score",
+  "model": "ExtraTreesRegressor",
+  "n_outer_folds": 5,
+  "n_repeats": 30,
+  "scoring": "neg_mean_absolute_error",
+  "interpretation": [
+    "Permutation importance was calculated only on each held-out outer test fold.",
+    "A positive value means shuffling the feature increased MAE and therefore harmed prediction.",
+    "Correlated features can share or dilute permutation importance.",
+    "Importance describes predictive contribution, not causality."
+  ]
+}

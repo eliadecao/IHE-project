@@ -1,0 +1,67 @@
+{
+  "grouped_directory": "C:\\Users\\ROG\\IHE-project\\data\\dataset_v5\\qc_v5\\v4\\grouped_cv",
+  "output_directory": "C:\\Users\\ROG\\IHE-project\\data\\dataset_v5\\qc_v5\\v4\\grouped_cv\\final_model_comparison",
+  "models_compared": [
+    "elastic_net",
+    "extra_trees",
+    "hist_gradient_boosting",
+    "random_forest",
+    "ridge"
+  ],
+  "reference_model": "extra_trees",
+  "bootstrap_iterations": 10000,
+  "bootstrap_unit": "participant_group",
+  "interpretation": "A negative Extra Trees minus comparator difference means Extra Trees has lower participant-level error.",
+  "operation_level_results": [
+    {
+      "model": "extra_trees",
+      "n_operations": 191,
+      "mae": 2.796514731480156,
+      "rmse": 3.495549050766495,
+      "r2": 0.45740049278128236,
+      "mean_residual": 0.1998599229127381,
+      "median_absolute_error": 2.4755070505063337,
+      "error_90th_percentile": 5.722951471758154
+    },
+    {
+      "model": "random_forest",
+      "n_operations": 191,
+      "mae": 2.9170802516263827,
+      "rmse": 3.6426150436465736,
+      "r2": 0.4107831644286879,
+      "mean_residual": 0.14706416979519982,
+      "median_absolute_error": 2.4149019961520004,
+      "error_90th_percentile": 6.100963974947419
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "n_operations": 191,
+      "mae": 3.1754120958699055,
+      "rmse": 3.904705431581291,
+      "r2": 0.32294313375790606,
+      "mean_residual": 0.27788572882765644,
+      "median_absolute_error": 2.737136039771979,
+      "error_90th_percentile": 6.031078868823773
+    },
+    {
+      "model": "ridge",
+      "n_operations": 191,
+      "mae": 3.1843131806551344,
+      "rmse": 4.432282629113464,
+      "r2": 0.12762444961575747,
+      "mean_residual": 0.47428315979013425,
+      "median_absolute_error": 2.525111871627125,
+      "error_90th_percentile": 6.8393222660791295
+    },
+    {
+      "model": "elastic_net",
+      "n_operations": 191,
+      "mae": 3.367573149348187,
+      "rmse": 5.369469503841416,
+      "r2": -0.2802988455796913,
+      "mean_residual": 0.5547261401999436,
+      "median_absolute_error": 2.6735296507294635,
+      "error_90th_percentile": 6.590540947275553
+    }
+  ]
+}

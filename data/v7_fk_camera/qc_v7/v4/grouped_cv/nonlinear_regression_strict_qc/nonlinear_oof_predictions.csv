@@ -1,0 +1,721 @@
+file_name,role,participant_id,participant_group,task_clean,trial,model,cv_fold,y_true,y_pred,residual,absolute_error
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_camera target_1.csv,expert,8,expert__participant_8,camera_target,1,random_forest,1,28.0,25.861601682949082,2.1383983170509175,2.1383983170509175
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_glove cut_1.csv,expert,8,expert__participant_8,glove_cut,1,random_forest,1,24.0,23.35428563139602,0.6457143686039792,0.6457143686039792
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_ring rollercoaster_1.csv,expert,8,expert__participant_8,ring_rollercoaster,1,random_forest,1,24.0,24.396462835505034,-0.3964628355050337,0.3964628355050337
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_sea spikes_1.csv,expert,8,expert__participant_8,sea_spikes,1,random_forest,1,22.0,21.07417047238476,0.9258295276152388,0.9258295276152388
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_suture_1.csv,expert,8,expert__participant_8,suture,1,random_forest,1,29.0,25.769063737489073,3.2309362625109266,3.2309362625109266
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_camera target_1.csv,trainee,2,trainee__participant_2,camera_target,1,random_forest,1,17.0,15.956446511641314,1.043553488358686,1.043553488358686
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_glove cut_1.csv,trainee,2,trainee__participant_2,glove_cut,1,random_forest,1,13.0,18.69982467928897,-5.6998246792889695,5.6998246792889695
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_ring rollercoaster_1.csv,trainee,2,trainee__participant_2,ring_rollercoaster,1,random_forest,1,14.0,16.897533364903502,-2.897533364903502,2.897533364903502
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_sea spikes_1.csv,trainee,2,trainee__participant_2,sea_spikes,1,random_forest,1,15.0,18.654722207806635,-3.6547222078066355,3.6547222078066355
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_camera target_1.csv,trainee,5,trainee__participant_5,camera_target,1,random_forest,1,7.0,15.385046338942434,-8.385046338942434,8.385046338942434
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_glove cut_1.csv,trainee,5,trainee__participant_5,glove_cut,1,random_forest,1,11.0,15.516809092783125,-4.5168090927831255,4.5168090927831255
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_ring rollercoaster_1.csv,trainee,5,trainee__participant_5,ring_rollercoaster,1,random_forest,1,17.0,14.26291960654785,2.7370803934521497,2.7370803934521497
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_sea spikes_1.csv,trainee,5,trainee__participant_5,sea_spikes,1,random_forest,1,16.0,15.693912625974319,0.3060873740256813,0.3060873740256813
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_suture_1.csv,trainee,5,trainee__participant_5,suture,1,random_forest,1,16.0,17.12461740099728,-1.1246174009972805,1.1246174009972805
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_camera target_2.csv,trainee,2,trainee__participant_2,camera_target,2,random_forest,1,16.0,19.362690862528517,-3.362690862528517,3.362690862528517
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_glove cut_2.csv,trainee,2,trainee__participant_2,glove_cut,2,random_forest,1,19.0,17.842511664021398,1.1574883359786021,1.1574883359786021
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_ring rollercoaster_2.csv,trainee,2,trainee__participant_2,ring_rollercoaster,2,random_forest,1,21.0,15.902325700093561,5.097674299906439,5.097674299906439
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_sea spikes_2.csv,trainee,2,trainee__participant_2,sea_spikes,2,random_forest,1,17.0,18.157468703734935,-1.157468703734935,1.157468703734935
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_suture_2.csv,trainee,2,trainee__participant_2,suture,2,random_forest,1,22.0,22.466558401014577,-0.46655840101457713,0.46655840101457713
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_camera target_2.csv,trainee,5,trainee__participant_5,camera_target,2,random_forest,1,21.0,18.20199383949385,2.7980061605061515,2.7980061605061515
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_glove cut_2.csv,trainee,5,trainee__participant_5,glove_cut,2,random_forest,1,19.0,17.05610849287797,1.9438915071220286,1.9438915071220286
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_ring rollercoaster_2.csv,trainee,5,trainee__participant_5,ring_rollercoaster,2,random_forest,1,23.0,14.585044897382552,8.414955102617448,8.414955102617448
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_sea spikes_2.csv,trainee,5,trainee__participant_5,sea_spikes,2,random_forest,1,21.0,20.29880558654909,0.70119441345091,0.70119441345091
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_suture_2.csv,trainee,5,trainee__participant_5,suture,2,random_forest,1,21.0,17.371879067901798,3.628120932098202,3.628120932098202
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_31_ring rollercoaster_1.csv,trainee,31,trainee__participant_31,ring_rollercoaster,1,random_forest,1,15.0,17.360135850801438,-2.360135850801438,2.360135850801438
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_31_sea spikes_1.csv,trainee,31,trainee__participant_31,sea_spikes,1,random_forest,1,13.0,16.657652548198772,-3.6576525481987723,3.6576525481987723
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_36_ring rollercoaster_1.csv,trainee,36,trainee__participant_36,ring_rollercoaster,1,random_forest,1,19.0,14.983630065450638,4.0163699345493615,4.0163699345493615
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_36_sea spikes_1.csv,trainee,36,trainee__participant_36,sea_spikes,1,random_forest,1,16.0,16.864711875426163,-0.8647118754261633,0.8647118754261633
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_camera target_1.csv,expert,1,expert__participant_1,camera_target,1,random_forest,1,26.0,25.816682613922882,0.18331738607711756,0.18331738607711756
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_glove cut_1.csv,expert,1,expert__participant_1,glove_cut,1,random_forest,1,20.0,22.546803529633937,-2.5468035296339373,2.5468035296339373
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_ring rollercoaster_1.csv,expert,1,expert__participant_1,ring_rollercoaster,1,random_forest,1,21.0,22.945587511334253,-1.945587511334253,1.945587511334253
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_sea spikes_1.csv,expert,1,expert__participant_1,sea_spikes,1,random_forest,1,23.0,24.756533365624282,-1.756533365624282,1.756533365624282
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_suture_1.csv,expert,1,expert__participant_1,suture,1,random_forest,1,26.0,23.937674924282078,2.062325075717922,2.062325075717922
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_31_glove cut_1.csv,trainee,31,trainee__participant_31,glove_cut,1,random_forest,1,16.0,16.88813093472186,-0.8881309347218611,0.8881309347218611
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_36_glove cut_1.csv,trainee,36,trainee__participant_36,glove_cut,1,random_forest,1,18.0,17.52706509309592,0.47293490690407936,0.47293490690407936
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_11_ring rollercoaster_1.csv,trainee,11,trainee__participant_11,ring_rollercoaster,1,random_forest,1,18.0,15.611354113058667,2.388645886941333,2.388645886941333
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_11_sea spikes_1.csv,trainee,11,trainee__participant_11,sea_spikes,1,random_forest,1,18.0,19.67819077567453,-1.6781907756745298,1.6781907756745298
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_11_camera target_1.csv,trainee,11,trainee__participant_11,camera_target,1,random_forest,1,10.0,14.66324097979943,-4.663240979799429,4.663240979799429
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_11_glove cut_1.csv,trainee,11,trainee__participant_11,glove_cut,1,random_forest,1,18.0,18.488088850183004,-0.4880888501830043,0.4880888501830043
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_11_suture_1.csv,trainee,11,trainee__participant_11,suture,1,random_forest,1,18.0,19.690348765592283,-1.690348765592283,1.690348765592283
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_ring rollercoaster_2.csv,trainee,11,trainee__participant_11,ring_rollercoaster,2,random_forest,1,16.0,17.888270910716486,-1.8882709107164857,1.8882709107164857
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_sea spikes_2.csv,trainee,11,trainee__participant_11,sea_spikes,2,random_forest,1,18.0,20.481053866768153,-2.4810538667681534,2.4810538667681534
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_17_camera target_2.csv,trainee,17,trainee__participant_17,camera_target,2,random_forest,1,22.0,20.771073010683388,1.2289269893166122,1.2289269893166122
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_17_camera target_1.csv,trainee,17,trainee__participant_17,camera_target,1,random_forest,1,23.0,20.186163196471625,2.8138368035283747,2.8138368035283747
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_17_suture_1.csv,trainee,17,trainee__participant_17,suture,1,random_forest,1,15.0,22.109603014229638,-7.109603014229638,7.109603014229638
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_glove cut_2.csv,trainee,17,trainee__participant_17,glove_cut,2,random_forest,1,22.0,19.92226888371369,2.0777311162863086,2.0777311162863086
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_ring rollercoaster_2.csv,trainee,17,trainee__participant_17,ring_rollercoaster,2,random_forest,1,22.0,19.493675075455066,2.506324924544934,2.506324924544934
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_sea spikes_2.csv,trainee,17,trainee__participant_17,sea_spikes,2,random_forest,1,22.0,22.007510031454856,-0.007510031454856403,0.007510031454856403
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_camera target_1.csv,expert,7,expert__participant_7,camera_target,1,random_forest,2,28.0,26.19014003087824,1.80985996912176,1.80985996912176
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_glove cut_1.csv,expert,7,expert__participant_7,glove_cut,1,random_forest,2,25.0,21.166766011673122,3.833233988326878,3.833233988326878
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_ring rollercoaster_1.csv,expert,7,expert__participant_7,ring_rollercoaster,1,random_forest,2,20.0,23.709967377151283,-3.7099673771512833,3.7099673771512833
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_sea spikes_1.csv,expert,7,expert__participant_7,sea_spikes,1,random_forest,2,20.0,20.38349808606247,-0.3834980860624704,0.3834980860624704
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_suture_1.csv,expert,7,expert__participant_7,suture,1,random_forest,2,29.0,24.90123146815531,4.098768531844691,4.098768531844691
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_camera target_1.csv,trainee,4,trainee__participant_4,camera_target,1,random_forest,2,16.0,16.368753544307577,-0.3687535443075767,0.3687535443075767
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_glove cut_1.csv,trainee,4,trainee__participant_4,glove_cut,1,random_forest,2,23.0,16.767541145025685,6.232458854974315,6.232458854974315
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_ring rollercoaster_1.csv,trainee,4,trainee__participant_4,ring_rollercoaster,1,random_forest,2,14.0,17.017518212525264,-3.017518212525264,3.017518212525264
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_sea spikes_1.csv,trainee,4,trainee__participant_4,sea_spikes,1,random_forest,2,18.0,16.594791688900372,1.4052083110996278,1.4052083110996278
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_suture_1.csv,trainee,4,trainee__participant_4,suture,1,random_forest,2,18.0,17.42622478778175,0.5737752122182513,0.5737752122182513
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_camera target_2.csv,trainee,4,trainee__participant_4,camera_target,2,random_forest,2,23.0,18.578200147337643,4.421799852662357,4.421799852662357
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_glove cut_2.csv,trainee,4,trainee__participant_4,glove_cut,2,random_forest,2,24.0,18.21454854209678,5.785451457903221,5.785451457903221
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_ring rollercoaster_2.csv,trainee,4,trainee__participant_4,ring_rollercoaster,2,random_forest,2,24.0,18.451109096839172,5.548890903160828,5.548890903160828
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_sea spikes_2.csv,trainee,4,trainee__participant_4,sea_spikes,2,random_forest,2,24.0,18.93883671269723,5.061163287302769,5.061163287302769
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_suture_2.csv,trainee,4,trainee__participant_4,suture,2,random_forest,2,22.0,21.686827388310913,0.3131726116890867,0.3131726116890867
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_camera target_2.csv,trainee,38,trainee__participant_38,camera_target,2,random_forest,2,22.0,26.890968962021592,-4.890968962021592,4.890968962021592
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_glove cut_2.csv,trainee,38,trainee__participant_38,glove_cut,2,random_forest,2,18.0,21.784686838933382,-3.784686838933382,3.784686838933382
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_camera target_2.csv,trainee,42,trainee__participant_42,camera_target,2,random_forest,2,19.0,17.852113889067944,1.1478861109320562,1.1478861109320562
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_glove cut_2.csv,trainee,42,trainee__participant_42,glove_cut,2,random_forest,2,16.0,17.637015122476356,-1.637015122476356,1.637015122476356
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_camera target_1.csv,trainee,34,trainee__participant_34,camera_target,1,random_forest,2,18.0,19.25422327848157,-1.2542232784815717,1.2542232784815717
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_ring rollercoaster_1.csv,trainee,34,trainee__participant_34,ring_rollercoaster,1,random_forest,2,14.0,13.866273349051571,0.13372665094842873,0.13372665094842873
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_sea spikes_1.csv,trainee,34,trainee__participant_34,sea_spikes,1,random_forest,2,14.0,14.711910149196427,-0.7119101491964273,0.7119101491964273
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_35_ring rollercoaster_1.csv,trainee,35,trainee__participant_35,ring_rollercoaster,1,random_forest,2,18.0,16.326402558102718,1.6735974418972823,1.6735974418972823
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_35_sea spikes_1.csv,trainee,35,trainee__participant_35,sea_spikes,1,random_forest,2,15.0,16.759994429831146,-1.7599944298311456,1.7599944298311456
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_34_glove cut_1.csv,trainee,34,trainee__participant_34,glove_cut,1,random_forest,2,12.0,13.425907015806262,-1.4259070158062617,1.4259070158062617
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_camera target_2.csv,trainee,35,trainee__participant_35,camera_target,2,random_forest,2,18.0,21.761985802344064,-3.761985802344064,3.761985802344064
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_glove cut_1.csv,trainee,35,trainee__participant_35,glove_cut,1,random_forest,2,16.0,18.822513462769937,-2.822513462769937,2.822513462769937
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_sea spikes_2.csv,trainee,35,trainee__participant_35,sea_spikes,2,random_forest,2,21.0,21.154246555716636,-0.15424655571663592,0.15424655571663592
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_glove cut_1.csv,trainee,14,trainee__participant_14,glove_cut,1,random_forest,2,11.0,17.615767825424268,-6.615767825424268,6.615767825424268
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_ring rollercoaster_1.csv,trainee,14,trainee__participant_14,ring_rollercoaster,1,random_forest,2,16.0,19.17336814093929,-3.1733681409392887,3.1733681409392887
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_sea spikes_1.csv,trainee,14,trainee__participant_14,sea_spikes,1,random_forest,2,12.0,13.782072356463635,-1.782072356463635,1.782072356463635
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_suture_1.csv,trainee,14,trainee__participant_14,suture,1,random_forest,2,15.0,19.35769641877451,-4.357696418774509,4.357696418774509
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_14_camera target_1.csv,trainee,14,trainee__participant_14,camera_target,1,random_forest,2,14.0,15.83585077295907,-1.8358507729590698,1.8358507729590698
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_14_sea spikes_2.csv,trainee,14,trainee__participant_14,sea_spikes,2,random_forest,2,20.0,19.041117493896127,0.9588825061038726,0.9588825061038726
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_14_suture_2.csv,trainee,14,trainee__participant_14,suture,2,random_forest,2,29.0,25.25235468467891,3.7476453153210905,3.7476453153210905
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_14_glove cut_2.csv,trainee,14,trainee__participant_14,glove_cut,2,random_forest,2,18.0,16.910809147580512,1.0891908524194882,1.0891908524194882
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_19_camera target_2.csv,trainee,19,trainee__participant_19,camera_target,2,random_forest,2,18.0,18.462999987542556,-0.4629999875425561,0.4629999875425561
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_21_camera target_2.csv,trainee,21,trainee__participant_21,camera_target,2,random_forest,2,23.0,20.412881806453978,2.587118193546022,2.587118193546022
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_19_camera target_1.csv,trainee,19,trainee__participant_19,camera_target,1,random_forest,2,17.0,15.987516098521475,1.0124839014785252,1.0124839014785252
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_19_suture_1.csv,trainee,19,trainee__participant_19,suture,1,random_forest,2,16.0,16.573705134977665,-0.573705134977665,0.573705134977665
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_21_camera target_1.csv,trainee,21,trainee__participant_21,camera_target,1,random_forest,2,19.0,19.189091869193035,-0.18909186919303522,0.18909186919303522
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_21_suture_1.csv,trainee,21,trainee__participant_21,suture,1,random_forest,2,18.0,18.03853742038638,-0.03853742038637975,0.03853742038637975
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_glove cut_2.csv,trainee,19,trainee__participant_19,glove_cut,2,random_forest,2,17.0,17.362528901062586,-0.3625289010625856,0.3625289010625856
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_ring rollercoaster_2.csv,trainee,19,trainee__participant_19,ring_rollercoaster,2,random_forest,2,22.0,17.188492594981724,4.811507405018276,4.811507405018276
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_sea spikes_2.csv,trainee,19,trainee__participant_19,sea_spikes,2,random_forest,2,21.0,19.126362589603406,1.8736374103965936,1.8736374103965936
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_glove cut_2.csv,trainee,21,trainee__participant_21,glove_cut,2,random_forest,2,25.0,19.850787670037978,5.1492123299620225,5.1492123299620225
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_ring rollercoaster_2.csv,trainee,21,trainee__participant_21,ring_rollercoaster,2,random_forest,2,22.0,19.41540304583876,2.5845969541612384,2.5845969541612384
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_sea spikes_2.csv,trainee,21,trainee__participant_21,sea_spikes,2,random_forest,2,22.0,21.059977018697257,0.940022981302743,0.940022981302743
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_suture_2.csv,trainee,21,trainee__participant_21,suture,2,random_forest,2,23.0,20.978682290310225,2.021317709689775,2.021317709689775
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_camera target_1.csv,expert,9,expert__participant_9,camera_target,1,random_forest,3,28.0,23.53310185185185,4.46689814814815,4.46689814814815
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_glove cut_1.csv,expert,9,expert__participant_9,glove_cut,1,random_forest,3,29.0,24.008281893004117,4.991718106995883,4.991718106995883
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_ring rollercoaster_1.csv,expert,9,expert__participant_9,ring_rollercoaster,1,random_forest,3,29.0,22.691024887321188,6.308975112678812,6.308975112678812
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_sea spikes_1.csv,expert,9,expert__participant_9,sea_spikes,1,random_forest,3,29.0,23.031393298059964,5.968606701940036,5.968606701940036
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_suture_1.csv,expert,9,expert__participant_9,suture,1,random_forest,3,28.0,25.28504556143446,2.7149544385655417,2.7149544385655417
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_camera target_1.csv,trainee,3,trainee__participant_3,camera_target,1,random_forest,3,15.0,18.00756128968263,-3.0075612896826307,3.0075612896826307
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_glove cut_1.csv,trainee,3,trainee__participant_3,glove_cut,1,random_forest,3,17.0,19.2261404552475,-2.2261404552474993,2.2261404552474993
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_ring rollercoaster_1.csv,trainee,3,trainee__participant_3,ring_rollercoaster,1,random_forest,3,12.0,17.16711569391377,-5.167115693913772,5.167115693913772
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_sea spikes_1.csv,trainee,3,trainee__participant_3,sea_spikes,1,random_forest,3,15.0,18.086502300350343,-3.086502300350343,3.086502300350343
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_suture_1.csv,trainee,3,trainee__participant_3,suture,1,random_forest,3,19.0,18.574694277260445,0.42530572273955514,0.42530572273955514
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_camera target_2.csv,trainee,3,trainee__participant_3,camera_target,2,random_forest,3,23.0,18.925609576251933,4.074390423748067,4.074390423748067
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_glove cut_2.csv,trainee,3,trainee__participant_3,glove_cut,2,random_forest,3,19.0,19.881916081459618,-0.8819160814596181,0.8819160814596181
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_ring rollercoaster_2.csv,trainee,3,trainee__participant_3,ring_rollercoaster,2,random_forest,3,21.0,19.712121340968,1.2878786590319997,1.2878786590319997
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_sea spikes_2.csv,trainee,3,trainee__participant_3,sea_spikes,2,random_forest,3,17.0,19.74336110498726,-2.7433611049872617,2.7433611049872617
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_suture_2.csv,trainee,3,trainee__participant_3,suture,2,random_forest,3,22.0,23.594683274544387,-1.594683274544387,1.594683274544387
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_camera target_2.csv,trainee,37,trainee__participant_37,camera_target,2,random_forest,3,16.0,18.037821338618443,-2.0378213386184427,2.0378213386184427
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_glove cut_2.csv,trainee,37,trainee__participant_37,glove_cut,2,random_forest,3,19.0,20.24991948750477,-1.2499194875047692,1.2499194875047692
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_camera target_2.csv,trainee,41,trainee__participant_41,camera_target,2,random_forest,3,20.0,18.402325102880656,1.5976748971193437,1.5976748971193437
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_glove cut_2.csv,trainee,41,trainee__participant_41,glove_cut,2,random_forest,3,19.0,18.706050992544764,0.293949007455236,0.293949007455236
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_camera target_1.csv,trainee,32,trainee__participant_32,camera_target,1,random_forest,3,20.0,19.87678351692272,0.12321648307727884,0.12321648307727884
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_ring rollercoaster_1.csv,trainee,32,trainee__participant_32,ring_rollercoaster,1,random_forest,3,17.0,16.777888976175703,0.22211102382429715,0.22211102382429715
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_sea spikes_1.csv,trainee,32,trainee__participant_32,sea_spikes,1,random_forest,3,14.0,23.926969429747214,-9.926969429747214,9.926969429747214
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_32_glove cut_1.csv,trainee,32,trainee__participant_32,glove_cut,1,random_forest,3,13.0,18.605089685842678,-5.605089685842678,5.605089685842678
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_camera target_1.csv,expert,6,expert__participant_6,camera_target,1,random_forest,3,25.0,22.462601711560037,2.537398288439963,2.537398288439963
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_glove cut_1.csv,expert,6,expert__participant_6,glove_cut,1,random_forest,3,23.0,21.069423713289453,1.9305762867105472,1.9305762867105472
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_ring rollercoaster_1.csv,expert,6,expert__participant_6,ring_rollercoaster,1,random_forest,3,23.0,21.691593180482073,1.308406819517927,1.308406819517927
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_sea spikes_1.csv,expert,6,expert__participant_6,sea_spikes,1,random_forest,3,23.0,21.06261129302796,1.9373887069720404,1.9373887069720404
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_suture_1.csv,expert,6,expert__participant_6,suture,1,random_forest,3,26.0,23.33852509052161,2.6614749094783896,2.6614749094783896
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_glove cut_1.csv,trainee,15,trainee__participant_15,glove_cut,1,random_forest,3,17.0,17.32745308187188,-0.32745308187188016,0.32745308187188016
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_ring rollercoaster_1.csv,trainee,15,trainee__participant_15,ring_rollercoaster,1,random_forest,3,18.0,19.585561845739043,-1.5855618457390435,1.5855618457390435
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_sea spikes_1.csv,trainee,15,trainee__participant_15,sea_spikes,1,random_forest,3,20.0,19.394073339212223,0.6059266607877767,0.6059266607877767
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_suture_1.csv,trainee,15,trainee__participant_15,suture,1,random_forest,3,15.0,17.481761953752695,-2.481761953752695,2.481761953752695
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_camera target_1.csv,trainee,13,trainee__participant_13,camera_target,1,random_forest,3,19.0,19.558428868156863,-0.558428868156863,0.558428868156863
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_glove cut_1.csv,trainee,13,trainee__participant_13,glove_cut,1,random_forest,3,23.0,19.233280049800328,3.766719950199672,3.766719950199672
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_ring rollercoaster_1.csv,trainee,13,trainee__participant_13,ring_rollercoaster,1,random_forest,3,17.0,20.579074377710885,-3.579074377710885,3.579074377710885
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_sea spikes_1.csv,trainee,13,trainee__participant_13,sea_spikes,1,random_forest,3,17.0,19.878107277464608,-2.8781072774646077,2.8781072774646077
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_suture_1.csv,trainee,13,trainee__participant_13,suture,1,random_forest,3,23.0,19.033725659897584,3.966274340102416,3.966274340102416
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_15_camera target_1.csv,trainee,15,trainee__participant_15,camera_target,1,random_forest,3,18.0,20.112602880658436,-2.112602880658436,2.112602880658436
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_13_sea spikes_2.csv,trainee,13,trainee__participant_13,sea_spikes,2,random_forest,3,21.0,23.640949563981977,-2.6409495639819767,2.6409495639819767
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_13_suture_2.csv,trainee,13,trainee__participant_13,suture,2,random_forest,3,28.0,21.768467078189296,6.231532921810704,6.231532921810704
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_15_sea spikes_2.csv,trainee,15,trainee__participant_15,sea_spikes,2,random_forest,3,23.0,21.173610331712183,1.826389668287817,1.826389668287817
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_15_suture_2.csv,trainee,15,trainee__participant_15,suture,2,random_forest,3,26.0,21.699253549948,4.300746450051999,4.300746450051999
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_13_camera target_2.csv,trainee,13,trainee__participant_13,camera_target,2,random_forest,3,17.0,23.54891791593181,-6.54891791593181,6.54891791593181
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_18_camera target_2.csv,trainee,18,trainee__participant_18,camera_target,2,random_forest,3,18.0,21.67187976632421,-3.67187976632421,3.67187976632421
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_18_suture_1.csv,trainee,18,trainee__participant_18,suture,1,random_forest,3,12.0,17.95858456422693,-5.958584564226928,5.958584564226928
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_glove cut_2.csv,trainee,18,trainee__participant_18,glove_cut,2,random_forest,3,22.0,21.720181755829902,0.27981824417009804,0.27981824417009804
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_ring rollercoaster_2.csv,trainee,18,trainee__participant_18,ring_rollercoaster,2,random_forest,3,24.0,20.55499706055262,3.445002939447381,3.445002939447381
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_sea spikes_2.csv,trainee,18,trainee__participant_18,sea_spikes,2,random_forest,3,22.0,21.225037411148524,0.7749625888514764,0.7749625888514764
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_suture_2.csv,trainee,18,trainee__participant_18,suture,2,random_forest,3,22.0,20.299674361132695,1.7003256388673051,1.7003256388673051
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_camera target_1.csv,expert,5,expert__participant_5,camera_target,1,random_forest,4,30.0,22.75,7.25,7.25
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_glove cut_1.csv,expert,5,expert__participant_5,glove_cut,1,random_forest,4,24.0,19.185064935064936,4.814935064935064,4.814935064935064
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_ring rollercoaster_1.csv,expert,5,expert__participant_5,ring_rollercoaster,1,random_forest,4,24.0,20.2987012987013,3.7012987012987004,3.7012987012987004
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_sea spikes_1.csv,expert,5,expert__participant_5,sea_spikes,1,random_forest,4,24.0,22.149350649350648,1.850649350649352,1.850649350649352
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_suture_1.csv,expert,5,expert__participant_5,suture,1,random_forest,4,29.0,22.405844155844157,6.594155844155843,6.594155844155843
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_camera target_2.csv,trainee,40,trainee__participant_40,camera_target,2,random_forest,4,24.0,23.662337662337663,0.3376623376623371,0.3376623376623371
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_glove cut_2.csv,trainee,40,trainee__participant_40,glove_cut,2,random_forest,4,24.0,22.324675324675326,1.6753246753246742,1.6753246753246742
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_camera target_1.csv,trainee,33,trainee__participant_33,camera_target,1,random_forest,4,23.0,21.227272727272727,1.7727272727272734,1.7727272727272734
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_ring rollercoaster_1.csv,trainee,33,trainee__participant_33,ring_rollercoaster,1,random_forest,4,21.0,19.75,1.25,1.25
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_sea spikes_1.csv,trainee,33,trainee__participant_33,sea_spikes,1,random_forest,4,16.0,19.415584415584416,-3.4155844155844157,3.4155844155844157
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_camera target_2.csv,trainee,33,trainee__participant_33,camera_target,2,random_forest,4,19.0,20.314935064935064,-1.3149350649350637,1.3149350649350637
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_glove cut_1.csv,trainee,33,trainee__participant_33,glove_cut,1,random_forest,4,18.0,19.0487012987013,-1.0487012987012996,1.0487012987012996
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_sea spikes_2.csv,trainee,33,trainee__participant_33,sea_spikes,2,random_forest,4,20.0,18.37012987012987,1.629870129870131,1.629870129870131
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_camera target_1.csv,expert,3,expert__participant_3,camera_target,1,random_forest,4,27.0,22.256493506493506,4.743506493506494,4.743506493506494
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_ring rollercoaster_1.csv,expert,3,expert__participant_3,ring_rollercoaster,1,random_forest,4,21.0,21.386363636363637,-0.3863636363636367,0.3863636363636367
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_sea spikes_1.csv,expert,3,expert__participant_3,sea_spikes,1,random_forest,4,23.0,20.792207792207794,2.207792207792206,2.207792207792206
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_suture_1.csv,expert,3,expert__participant_3,suture,1,random_forest,4,28.0,22.81168831168831,5.188311688311689,5.188311688311689
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_7_ring rollercoaster_1.csv,trainee,7,trainee__participant_7,ring_rollercoaster,1,random_forest,4,15.0,16.57792207792208,-1.5779220779220786,1.5779220779220786
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_7_sea spikes_1.csv,trainee,7,trainee__participant_7,sea_spikes,1,random_forest,4,19.0,16.36038961038961,2.6396103896103895,2.6396103896103895
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_9_ring rollercoaster_1.csv,trainee,9,trainee__participant_9,ring_rollercoaster,1,random_forest,4,14.0,18.516233766233768,-4.516233766233768,4.516233766233768
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_9_sea spikes_1.csv,trainee,9,trainee__participant_9,sea_spikes,1,random_forest,4,18.0,18.607142857142858,-0.6071428571428577,0.6071428571428577
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_7_camera target_1.csv,trainee,7,trainee__participant_7,camera_target,1,random_forest,4,17.0,18.717532467532468,-1.7175324675324681,1.7175324675324681
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_7_glove cut_1.csv,trainee,7,trainee__participant_7,glove_cut,1,random_forest,4,15.0,16.87987012987013,-1.879870129870131,1.879870129870131
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_9_camera target_1.csv,trainee,9,trainee__participant_9,camera_target,1,random_forest,4,19.0,19.694805194805195,-0.6948051948051948,0.6948051948051948
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_9_glove cut_1.csv,trainee,9,trainee__participant_9,glove_cut,1,random_forest,4,18.0,18.574675324675326,-0.5746753246753258,0.5746753246753258
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_7_suture_1.csv,trainee,7,trainee__participant_7,suture,1,random_forest,4,17.0,18.038961038961038,-1.0389610389610375,1.0389610389610375
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_9_suture_1.csv,trainee,9,trainee__participant_9,suture,1,random_forest,4,16.0,17.704545454545453,-1.7045454545454533,1.7045454545454533
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_ring rollercoaster_2.csv,trainee,7,trainee__participant_7,ring_rollercoaster,2,random_forest,4,18.0,20.0,-2.0,2.0
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_sea spikes_2.csv,trainee,7,trainee__participant_7,sea_spikes,2,random_forest,4,20.0,18.448051948051948,1.5519480519480524,1.5519480519480524
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_ring rollercoaster_2.csv,trainee,9,trainee__participant_9,ring_rollercoaster,2,random_forest,4,20.0,19.564935064935064,0.43506493506493626,0.43506493506493626
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_sea spikes_2.csv,trainee,9,trainee__participant_9,sea_spikes,2,random_forest,4,22.0,19.814935064935064,2.1850649350649363,2.1850649350649363
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_glove cut_1.csv,trainee,12,trainee__participant_12,glove_cut,1,random_forest,4,21.0,16.66883116883117,4.3311688311688314,4.3311688311688314
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_ring rollercoaster_1.csv,trainee,12,trainee__participant_12,ring_rollercoaster,1,random_forest,4,16.0,20.133116883116884,-4.133116883116884,4.133116883116884
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_sea spikes_1.csv,trainee,12,trainee__participant_12,sea_spikes,1,random_forest,4,12.0,17.694805194805195,-5.694805194805195,5.694805194805195
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_glove cut_1.csv,trainee,16,trainee__participant_16,glove_cut,1,random_forest,4,15.0,16.8474025974026,-1.8474025974025992,1.8474025974025992
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_ring rollercoaster_1.csv,trainee,16,trainee__participant_16,ring_rollercoaster,1,random_forest,4,20.0,16.954545454545453,3.0454545454545467,3.0454545454545467
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_sea spikes_1.csv,trainee,16,trainee__participant_16,sea_spikes,1,random_forest,4,16.0,15.324675324675324,0.675324675324676,0.675324675324676
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_suture_1.csv,trainee,16,trainee__participant_16,suture,1,random_forest,4,21.0,16.07792207792208,4.922077922077921,4.922077922077921
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_12_camera target_1.csv,trainee,12,trainee__participant_12,camera_target,1,random_forest,4,16.0,20.853896103896105,-4.853896103896105,4.853896103896105
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_16_camera target_1.csv,trainee,16,trainee__participant_16,camera_target,1,random_forest,4,23.0,19.87012987012987,3.129870129870131,3.129870129870131
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_16_ring rollercoaster_2.csv,trainee,16,trainee__participant_16,ring_rollercoaster,2,random_forest,4,23.0,19.324675324675326,3.675324675324674,3.675324675324674
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_12_suture_2.csv,trainee,12,trainee__participant_12,suture,2,random_forest,4,28.0,23.801948051948052,4.198051948051948,4.198051948051948
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_16_sea spikes_2.csv,trainee,16,trainee__participant_16,sea_spikes,2,random_forest,4,21.0,20.775974025974026,0.2240259740259738,0.2240259740259738
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_16_suture_2.csv,trainee,16,trainee__participant_16,suture,2,random_forest,4,29.0,22.0487012987013,6.9512987012987,6.9512987012987
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_12_glove cut_2.csv,trainee,12,trainee__participant_12,glove_cut,2,random_forest,4,20.0,18.853896103896105,1.1461038961038952,1.1461038961038952
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_16_camera target_2.csv,trainee,16,trainee__participant_16,camera_target,2,random_forest,4,23.0,18.935064935064936,4.064935064935064,4.064935064935064
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_16_glove cut_2.csv,trainee,16,trainee__participant_16,glove_cut,2,random_forest,4,24.0,18.33116883116883,5.6688311688311686,5.6688311688311686
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_camera target_1.csv,expert,10,expert__participant_10,camera_target,1,random_forest,5,30.0,26.6511448675825,3.3488551324175013,3.3488551324175013
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_glove cut_1.csv,expert,10,expert__participant_10,glove_cut,1,random_forest,5,28.0,25.74752104249989,2.2524789575001094,2.2524789575001094
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_ring rollercoaster_1.csv,expert,10,expert__participant_10,ring_rollercoaster,1,random_forest,5,29.0,22.53751468170074,6.462485318299262,6.462485318299262
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_sea spikes_1.csv,expert,10,expert__participant_10,sea_spikes,1,random_forest,5,29.0,22.288437073849344,6.7115629261506555,6.7115629261506555
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_suture_1.csv,expert,10,expert__participant_10,suture,1,random_forest,5,30.0,25.28526292828618,4.71473707171382,4.71473707171382
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_camera target_1.csv,trainee,1,trainee__participant_1,camera_target,1,random_forest,5,17.0,18.444307313546215,-1.444307313546215,1.444307313546215
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_glove cut_1.csv,trainee,1,trainee__participant_1,glove_cut,1,random_forest,5,15.0,15.580771652528094,-0.5807716525280942,0.5807716525280942
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_ring rollercoaster_1.csv,trainee,1,trainee__participant_1,ring_rollercoaster,1,random_forest,5,14.0,17.773393402463167,-3.7733934024631672,3.7733934024631672
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_sea spikes_1.csv,trainee,1,trainee__participant_1,sea_spikes,1,random_forest,5,13.0,16.05086049614634,-3.0508604961463384,3.0508604961463384
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_suture_1.csv,trainee,1,trainee__participant_1,suture,1,random_forest,5,19.0,16.36087334650398,2.639126653496021,2.639126653496021
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_camera target_2.csv,trainee,1,trainee__participant_1,camera_target,2,random_forest,5,19.0,17.492402324535824,1.5075976754641758,1.5075976754641758
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_glove cut_2.csv,trainee,1,trainee__participant_1,glove_cut,2,random_forest,5,19.0,17.020293650165566,1.9797063498344336,1.9797063498344336
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_ring rollercoaster_2.csv,trainee,1,trainee__participant_1,ring_rollercoaster,2,random_forest,5,20.0,19.283040919615967,0.7169590803840329,0.7169590803840329
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_sea spikes_2.csv,trainee,1,trainee__participant_1,sea_spikes,2,random_forest,5,19.0,19.20272950563647,-0.2027295056364693,0.2027295056364693
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_suture_2.csv,trainee,1,trainee__participant_1,suture,2,random_forest,5,17.0,19.332221696771885,-2.332221696771885,2.332221696771885
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_camera target_2.csv,trainee,39,trainee__participant_39,camera_target,2,random_forest,5,19.0,23.823261686633774,-4.823261686633774,4.823261686633774
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_glove cut_2.csv,trainee,39,trainee__participant_39,glove_cut,2,random_forest,5,22.0,21.27858652974931,0.7214134702506882,0.7214134702506882
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_camera target_1.csv,expert,2,expert__participant_2,camera_target,1,random_forest,5,25.0,23.284507449914432,1.7154925500855676,1.7154925500855676
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_glove cut_1.csv,expert,2,expert__participant_2,glove_cut,1,random_forest,5,19.0,18.143020045901743,0.8569799540982572,0.8569799540982572
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_ring rollercoaster_1.csv,expert,2,expert__participant_2,ring_rollercoaster,1,random_forest,5,20.0,21.141269688732688,-1.141269688732688,1.141269688732688
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_sea spikes_1.csv,expert,2,expert__participant_2,sea_spikes,1,random_forest,5,18.0,21.202790400226984,-3.2027904002269842,3.2027904002269842
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_10_ring rollercoaster_1.csv,trainee,10,trainee__participant_10,ring_rollercoaster,1,random_forest,5,14.0,18.82870573753237,-4.8287057375323705,4.8287057375323705
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_10_sea spikes_1.csv,trainee,10,trainee__participant_10,sea_spikes,1,random_forest,5,22.0,17.216784383159013,4.783215616840987,4.783215616840987
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_6_ring rollercoaster_1.csv,trainee,6,trainee__participant_6,ring_rollercoaster,1,random_forest,5,16.0,20.58458001946374,-4.58458001946374,4.58458001946374
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_6_sea spikes_1.csv,trainee,6,trainee__participant_6,sea_spikes,1,random_forest,5,16.0,18.049727427960857,-2.049727427960857,2.049727427960857
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_8_ring rollercoaster_1.csv,trainee,8,trainee__participant_8,ring_rollercoaster,1,random_forest,5,12.0,16.586902479829348,-4.586902479829348,4.586902479829348
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_8_sea spikes_1.csv,trainee,8,trainee__participant_8,sea_spikes,1,random_forest,5,18.0,17.407431183761865,0.5925688162381348,0.5925688162381348
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_10_glove cut_1.csv,trainee,10,trainee__participant_10,glove_cut,1,random_forest,5,18.0,14.568752595433784,3.431247404566216,3.431247404566216
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_6_camera target_1.csv,trainee,6,trainee__participant_6,camera_target,1,random_forest,5,16.0,18.77690707364542,-2.7769070736454218,2.7769070736454218
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_6_glove cut_1.csv,trainee,6,trainee__participant_6,glove_cut,1,random_forest,5,15.0,13.902415349508379,1.097584650491621,1.097584650491621
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_8_camera target_1.csv,trainee,8,trainee__participant_8,camera_target,1,random_forest,5,10.0,13.014332136425164,-3.014332136425164,3.014332136425164
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_8_glove cut_1.csv,trainee,8,trainee__participant_8,glove_cut,1,random_forest,5,17.0,17.156535745825014,-0.15653574582501406,0.15653574582501406
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_10_suture_1.csv,trainee,10,trainee__participant_10,suture,1,random_forest,5,19.0,19.89656791411548,-0.8965679141154794,0.8965679141154794
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_6_suture_1.csv,trainee,6,trainee__participant_6,suture,1,random_forest,5,12.0,18.758330867316058,-6.758330867316058,6.758330867316058
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_8_suture_1.csv,trainee,8,trainee__participant_8,suture,1,random_forest,5,17.0,18.803103520862496,-1.8031035208624964,1.8031035208624964
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_ring rollercoaster_2.csv,trainee,10,trainee__participant_10,ring_rollercoaster,2,random_forest,5,18.0,18.344652365291896,-0.34465236529189625,0.34465236529189625
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_sea spikes_2.csv,trainee,10,trainee__participant_10,sea_spikes,2,random_forest,5,22.0,19.869678712700175,2.130321287299825,2.130321287299825
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_ring rollercoaster_2.csv,trainee,6,trainee__participant_6,ring_rollercoaster,2,random_forest,5,18.0,21.51293556983304,-3.51293556983304,3.51293556983304
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_sea spikes_2.csv,trainee,6,trainee__participant_6,sea_spikes,2,random_forest,5,20.0,21.97680962448405,-1.9768096244840514,1.9768096244840514
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_ring rollercoaster_2.csv,trainee,8,trainee__participant_8,ring_rollercoaster,2,random_forest,5,16.0,17.41075252436941,-1.4107525243694106,1.4107525243694106
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_sea spikes_2.csv,trainee,8,trainee__participant_8,sea_spikes,2,random_forest,5,20.0,18.50299723056761,1.4970027694323917,1.4970027694323917
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_20_camera target_2.csv,trainee,20,trainee__participant_20,camera_target,2,random_forest,5,14.0,18.58955318817898,-4.589553188178979,4.589553188178979
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_20_camera target_1.csv,trainee,20,trainee__participant_20,camera_target,1,random_forest,5,15.0,16.83266888150609,-1.8326688815060912,1.8326688815060912
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_20_suture_1.csv,trainee,20,trainee__participant_20,suture,1,random_forest,5,13.0,16.522883318232157,-3.5228833182321573,3.5228833182321573
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_glove cut_2.csv,trainee,20,trainee__participant_20,glove_cut,2,random_forest,5,17.0,18.81412776793327,-1.8141277679332717,1.8141277679332717
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_ring rollercoaster_2.csv,trainee,20,trainee__participant_20,ring_rollercoaster,2,random_forest,5,21.0,18.565534993547658,2.434465006452342,2.434465006452342
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_sea spikes_2.csv,trainee,20,trainee__participant_20,sea_spikes,2,random_forest,5,21.0,20.225416518745767,0.7745834812542327,0.7745834812542327
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_camera target_1.csv,expert,8,expert__participant_8,camera_target,1,extra_trees,1,28.0,25.949240179942933,2.050759820057067,2.050759820057067
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_glove cut_1.csv,expert,8,expert__participant_8,glove_cut,1,extra_trees,1,24.0,22.70780819559228,1.2921918044077216,1.2921918044077216
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_ring rollercoaster_1.csv,expert,8,expert__participant_8,ring_rollercoaster,1,extra_trees,1,24.0,24.708456690219602,-0.7084566902196023,0.7084566902196023
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_sea spikes_1.csv,expert,8,expert__participant_8,sea_spikes,1,extra_trees,1,22.0,21.485576831224005,0.5144231687759948,0.5144231687759948
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_suture_1.csv,expert,8,expert__participant_8,suture,1,extra_trees,1,29.0,25.955032467532465,3.0449675324675347,3.0449675324675347
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_camera target_1.csv,trainee,2,trainee__participant_2,camera_target,1,extra_trees,1,17.0,15.401970307917896,1.598029692082104,1.598029692082104
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_glove cut_1.csv,trainee,2,trainee__participant_2,glove_cut,1,extra_trees,1,13.0,18.780136639625905,-5.780136639625905,5.780136639625905
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_ring rollercoaster_1.csv,trainee,2,trainee__participant_2,ring_rollercoaster,1,extra_trees,1,14.0,17.055570943930828,-3.055570943930828,3.055570943930828
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_sea spikes_1.csv,trainee,2,trainee__participant_2,sea_spikes,1,extra_trees,1,15.0,18.692959594111706,-3.6929595941117057,3.6929595941117057
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_camera target_1.csv,trainee,5,trainee__participant_5,camera_target,1,extra_trees,1,7.0,14.124255952380954,-7.124255952380954,7.124255952380954
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_glove cut_1.csv,trainee,5,trainee__participant_5,glove_cut,1,extra_trees,1,11.0,16.276333826991724,-5.276333826991724,5.276333826991724
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_ring rollercoaster_1.csv,trainee,5,trainee__participant_5,ring_rollercoaster,1,extra_trees,1,17.0,14.441571969696973,2.558428030303027,2.558428030303027
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_sea spikes_1.csv,trainee,5,trainee__participant_5,sea_spikes,1,extra_trees,1,16.0,15.825860127775446,0.17413987222455418,0.17413987222455418
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_suture_1.csv,trainee,5,trainee__participant_5,suture,1,extra_trees,1,16.0,16.95291541203258,-0.9529154120325813,0.9529154120325813
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_camera target_2.csv,trainee,2,trainee__participant_2,camera_target,2,extra_trees,1,16.0,19.114467213869172,-3.1144672138691725,3.1144672138691725
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_glove cut_2.csv,trainee,2,trainee__participant_2,glove_cut,2,extra_trees,1,19.0,17.62626665365551,1.3737333463444905,1.3737333463444905
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_ring rollercoaster_2.csv,trainee,2,trainee__participant_2,ring_rollercoaster,2,extra_trees,1,21.0,16.418828664707746,4.581171335292254,4.581171335292254
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_sea spikes_2.csv,trainee,2,trainee__participant_2,sea_spikes,2,extra_trees,1,17.0,17.952989074417644,-0.9529890744176441,0.9529890744176441
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_suture_2.csv,trainee,2,trainee__participant_2,suture,2,extra_trees,1,22.0,22.26278387017023,-0.26278387017023164,0.26278387017023164
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_camera target_2.csv,trainee,5,trainee__participant_5,camera_target,2,extra_trees,1,21.0,19.120481426041483,1.8795185739585172,1.8795185739585172
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_glove cut_2.csv,trainee,5,trainee__participant_5,glove_cut,2,extra_trees,1,19.0,17.135383180642727,1.8646168193572734,1.8646168193572734
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_ring rollercoaster_2.csv,trainee,5,trainee__participant_5,ring_rollercoaster,2,extra_trees,1,23.0,15.496282908542035,7.503717091457965,7.503717091457965
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_sea spikes_2.csv,trainee,5,trainee__participant_5,sea_spikes,2,extra_trees,1,21.0,19.991814632188955,1.0081853678110448,1.0081853678110448
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_suture_2.csv,trainee,5,trainee__participant_5,suture,2,extra_trees,1,21.0,17.22085849468269,3.779141505317309,3.779141505317309
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_31_ring rollercoaster_1.csv,trainee,31,trainee__participant_31,ring_rollercoaster,1,extra_trees,1,15.0,17.470934593493492,-2.4709345934934923,2.4709345934934923
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_31_sea spikes_1.csv,trainee,31,trainee__participant_31,sea_spikes,1,extra_trees,1,13.0,16.959619279803597,-3.959619279803597,3.959619279803597
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_36_ring rollercoaster_1.csv,trainee,36,trainee__participant_36,ring_rollercoaster,1,extra_trees,1,19.0,15.69865702479339,3.3013429752066106,3.3013429752066106
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_36_sea spikes_1.csv,trainee,36,trainee__participant_36,sea_spikes,1,extra_trees,1,16.0,16.10687874856689,-0.1068787485668885,0.1068787485668885
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_camera target_1.csv,expert,1,expert__participant_1,camera_target,1,extra_trees,1,26.0,26.359235209235216,-0.3592352092352158,0.3592352092352158
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_glove cut_1.csv,expert,1,expert__participant_1,glove_cut,1,extra_trees,1,20.0,21.603239542179097,-1.6032395421790966,1.6032395421790966
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_ring rollercoaster_1.csv,expert,1,expert__participant_1,ring_rollercoaster,1,extra_trees,1,21.0,23.350048714860748,-2.3500487148607476,2.3500487148607476
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_sea spikes_1.csv,expert,1,expert__participant_1,sea_spikes,1,extra_trees,1,23.0,25.6499458874459,-2.6499458874458988,2.6499458874458988
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_suture_1.csv,expert,1,expert__participant_1,suture,1,extra_trees,1,26.0,25.233798873084584,0.7662011269154156,0.7662011269154156
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_31_glove cut_1.csv,trainee,31,trainee__participant_31,glove_cut,1,extra_trees,1,16.0,16.882494012233554,-0.8824940122335541,0.8824940122335541
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_36_glove cut_1.csv,trainee,36,trainee__participant_36,glove_cut,1,extra_trees,1,18.0,17.761031372914125,0.23896862708587463,0.23896862708587463
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_11_ring rollercoaster_1.csv,trainee,11,trainee__participant_11,ring_rollercoaster,1,extra_trees,1,18.0,16.2761897205341,1.7238102794659014,1.7238102794659014
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_11_sea spikes_1.csv,trainee,11,trainee__participant_11,sea_spikes,1,extra_trees,1,18.0,19.791355828726907,-1.791355828726907,1.791355828726907
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_11_camera target_1.csv,trainee,11,trainee__participant_11,camera_target,1,extra_trees,1,10.0,14.103850719173298,-4.103850719173298,4.103850719173298
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_11_glove cut_1.csv,trainee,11,trainee__participant_11,glove_cut,1,extra_trees,1,18.0,18.185725251003138,-0.18572525100313797,0.18572525100313797
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_11_suture_1.csv,trainee,11,trainee__participant_11,suture,1,extra_trees,1,18.0,18.68461689374839,-0.684616893748391,0.684616893748391
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_ring rollercoaster_2.csv,trainee,11,trainee__participant_11,ring_rollercoaster,2,extra_trees,1,16.0,17.138992257409313,-1.1389922574093134,1.1389922574093134
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_sea spikes_2.csv,trainee,11,trainee__participant_11,sea_spikes,2,extra_trees,1,18.0,19.83647239678256,-1.8364723967825611,1.8364723967825611
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_17_camera target_2.csv,trainee,17,trainee__participant_17,camera_target,2,extra_trees,1,22.0,21.08460603249562,0.9153939675043787,0.9153939675043787
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_17_camera target_1.csv,trainee,17,trainee__participant_17,camera_target,1,extra_trees,1,23.0,19.428853221729465,3.571146778270535,3.571146778270535
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_17_suture_1.csv,trainee,17,trainee__participant_17,suture,1,extra_trees,1,15.0,22.824837662337675,-7.824837662337675,7.824837662337675
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_glove cut_2.csv,trainee,17,trainee__participant_17,glove_cut,2,extra_trees,1,22.0,19.316492676782776,2.683507323217224,2.683507323217224
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_ring rollercoaster_2.csv,trainee,17,trainee__participant_17,ring_rollercoaster,2,extra_trees,1,22.0,19.17818162388923,2.8218183761107696,2.8218183761107696
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_sea spikes_2.csv,trainee,17,trainee__participant_17,sea_spikes,2,extra_trees,1,22.0,21.28838136809985,0.7116186319001514,0.7116186319001514
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_camera target_1.csv,expert,7,expert__participant_7,camera_target,1,extra_trees,2,28.0,26.650081085690715,1.349918914309285,1.349918914309285
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_glove cut_1.csv,expert,7,expert__participant_7,glove_cut,1,extra_trees,2,25.0,21.66085419705964,3.3391458029403616,3.3391458029403616
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_ring rollercoaster_1.csv,expert,7,expert__participant_7,ring_rollercoaster,1,extra_trees,2,20.0,24.0529663014835,-4.052966301483501,4.052966301483501
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_sea spikes_1.csv,expert,7,expert__participant_7,sea_spikes,1,extra_trees,2,20.0,21.54026681731369,-1.5402668173136895,1.5402668173136895
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_suture_1.csv,expert,7,expert__participant_7,suture,1,extra_trees,2,29.0,25.431090421808705,3.5689095781912954,3.5689095781912954
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_camera target_1.csv,trainee,4,trainee__participant_4,camera_target,1,extra_trees,2,16.0,15.989690654475732,0.01030934552426821,0.01030934552426821
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_glove cut_1.csv,trainee,4,trainee__participant_4,glove_cut,1,extra_trees,2,23.0,17.384581109704413,5.615418890295587,5.615418890295587
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_ring rollercoaster_1.csv,trainee,4,trainee__participant_4,ring_rollercoaster,1,extra_trees,2,14.0,17.11690753194121,-3.1169075319412087,3.1169075319412087
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_sea spikes_1.csv,trainee,4,trainee__participant_4,sea_spikes,1,extra_trees,2,18.0,16.929697395130553,1.0703026048694468,1.0703026048694468
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_suture_1.csv,trainee,4,trainee__participant_4,suture,1,extra_trees,2,18.0,17.890895583169407,0.10910441683059346,0.10910441683059346
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_camera target_2.csv,trainee,4,trainee__participant_4,camera_target,2,extra_trees,2,23.0,18.792037017211065,4.207962982788935,4.207962982788935
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_glove cut_2.csv,trainee,4,trainee__participant_4,glove_cut,2,extra_trees,2,24.0,18.46671750468031,5.533282495319689,5.533282495319689
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_ring rollercoaster_2.csv,trainee,4,trainee__participant_4,ring_rollercoaster,2,extra_trees,2,24.0,18.747063232186804,5.252936767813196,5.252936767813196
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_sea spikes_2.csv,trainee,4,trainee__participant_4,sea_spikes,2,extra_trees,2,24.0,19.47432300815174,4.525676991848261,4.525676991848261
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_suture_2.csv,trainee,4,trainee__participant_4,suture,2,extra_trees,2,22.0,21.733635868294144,0.26636413170585627,0.26636413170585627
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_camera target_2.csv,trainee,38,trainee__participant_38,camera_target,2,extra_trees,2,22.0,27.027760469001457,-5.027760469001457,5.027760469001457
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_glove cut_2.csv,trainee,38,trainee__participant_38,glove_cut,2,extra_trees,2,18.0,21.517807759917716,-3.5178077599177158,3.5178077599177158
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_camera target_2.csv,trainee,42,trainee__participant_42,camera_target,2,extra_trees,2,19.0,18.264112597177256,0.735887402822744,0.735887402822744
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_glove cut_2.csv,trainee,42,trainee__participant_42,glove_cut,2,extra_trees,2,16.0,18.71876617357548,-2.7187661735754816,2.7187661735754816
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_camera target_1.csv,trainee,34,trainee__participant_34,camera_target,1,extra_trees,2,18.0,19.45353237701235,-1.4535323770123512,1.4535323770123512
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_ring rollercoaster_1.csv,trainee,34,trainee__participant_34,ring_rollercoaster,1,extra_trees,2,14.0,15.023285079743376,-1.023285079743376,1.023285079743376
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_sea spikes_1.csv,trainee,34,trainee__participant_34,sea_spikes,1,extra_trees,2,14.0,14.493038588487973,-0.49303858848797333,0.49303858848797333
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_35_ring rollercoaster_1.csv,trainee,35,trainee__participant_35,ring_rollercoaster,1,extra_trees,2,18.0,16.33307006871188,1.66692993128812,1.66692993128812
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_35_sea spikes_1.csv,trainee,35,trainee__participant_35,sea_spikes,1,extra_trees,2,15.0,16.39187288955048,-1.3918728895504806,1.3918728895504806
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_34_glove cut_1.csv,trainee,34,trainee__participant_34,glove_cut,1,extra_trees,2,12.0,14.742199326092559,-2.7421993260925586,2.7421993260925586
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_camera target_2.csv,trainee,35,trainee__participant_35,camera_target,2,extra_trees,2,18.0,20.949230223841383,-2.949230223841383,2.949230223841383
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_glove cut_1.csv,trainee,35,trainee__participant_35,glove_cut,1,extra_trees,2,16.0,19.04763737822393,-3.0476373782239286,3.0476373782239286
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_sea spikes_2.csv,trainee,35,trainee__participant_35,sea_spikes,2,extra_trees,2,21.0,20.183101160959392,0.8168988390406078,0.8168988390406078
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_glove cut_1.csv,trainee,14,trainee__participant_14,glove_cut,1,extra_trees,2,11.0,17.711796732213635,-6.711796732213635,6.711796732213635
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_ring rollercoaster_1.csv,trainee,14,trainee__participant_14,ring_rollercoaster,1,extra_trees,2,16.0,18.81174180110087,-2.811741801100869,2.811741801100869
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_sea spikes_1.csv,trainee,14,trainee__participant_14,sea_spikes,1,extra_trees,2,12.0,14.072391965771391,-2.0723919657713914,2.0723919657713914
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_suture_1.csv,trainee,14,trainee__participant_14,suture,1,extra_trees,2,15.0,19.070550143692746,-4.070550143692746,4.070550143692746
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_14_camera target_1.csv,trainee,14,trainee__participant_14,camera_target,1,extra_trees,2,14.0,14.572515515991975,-0.5725155159919755,0.5725155159919755
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_14_sea spikes_2.csv,trainee,14,trainee__participant_14,sea_spikes,2,extra_trees,2,20.0,19.227056449407296,0.7729435505927036,0.7729435505927036
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_14_suture_2.csv,trainee,14,trainee__participant_14,suture,2,extra_trees,2,29.0,26.12365716787358,2.8763428321264186,2.8763428321264186
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_14_glove cut_2.csv,trainee,14,trainee__participant_14,glove_cut,2,extra_trees,2,18.0,17.553759581040687,0.446240418959313,0.446240418959313
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_19_camera target_2.csv,trainee,19,trainee__participant_19,camera_target,2,extra_trees,2,18.0,17.93119225579682,0.06880774420318048,0.06880774420318048
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_21_camera target_2.csv,trainee,21,trainee__participant_21,camera_target,2,extra_trees,2,23.0,20.374035004708265,2.625964995291735,2.625964995291735
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_19_camera target_1.csv,trainee,19,trainee__participant_19,camera_target,1,extra_trees,2,17.0,15.322755408773181,1.6772445912268186,1.6772445912268186
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_19_suture_1.csv,trainee,19,trainee__participant_19,suture,1,extra_trees,2,16.0,15.016352194654438,0.9836478053455622,0.9836478053455622
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_21_camera target_1.csv,trainee,21,trainee__participant_21,camera_target,1,extra_trees,2,19.0,18.78481198438502,0.2151880156149808,0.2151880156149808
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_21_suture_1.csv,trainee,21,trainee__participant_21,suture,1,extra_trees,2,18.0,15.657361937422358,2.3426380625776417,2.3426380625776417
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_glove cut_2.csv,trainee,19,trainee__participant_19,glove_cut,2,extra_trees,2,17.0,17.14814193367126,-0.14814193367125839,0.14814193367125839
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_ring rollercoaster_2.csv,trainee,19,trainee__participant_19,ring_rollercoaster,2,extra_trees,2,22.0,16.997999163736612,5.002000836263388,5.002000836263388
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_sea spikes_2.csv,trainee,19,trainee__participant_19,sea_spikes,2,extra_trees,2,21.0,19.752518243568787,1.2474817564312133,1.2474817564312133
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_glove cut_2.csv,trainee,21,trainee__participant_21,glove_cut,2,extra_trees,2,25.0,20.51814876395258,4.481851236047419,4.481851236047419
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_ring rollercoaster_2.csv,trainee,21,trainee__participant_21,ring_rollercoaster,2,extra_trees,2,22.0,19.687359917551,2.3126400824490005,2.3126400824490005
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_sea spikes_2.csv,trainee,21,trainee__participant_21,sea_spikes,2,extra_trees,2,22.0,20.86118091717169,1.1388190828283093,1.1388190828283093
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_suture_2.csv,trainee,21,trainee__participant_21,suture,2,extra_trees,2,23.0,20.16382908032669,2.836170919673311,2.836170919673311
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_camera target_1.csv,expert,9,expert__participant_9,camera_target,1,extra_trees,3,28.0,24.191011971567526,3.8089880284324735,3.8089880284324735
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_glove cut_1.csv,expert,9,expert__participant_9,glove_cut,1,extra_trees,3,29.0,24.363138457022863,4.636861542977137,4.636861542977137
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_ring rollercoaster_1.csv,expert,9,expert__participant_9,ring_rollercoaster,1,extra_trees,3,29.0,22.85395311928895,6.146046880711051,6.146046880711051
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_sea spikes_1.csv,expert,9,expert__participant_9,sea_spikes,1,extra_trees,3,29.0,23.536975774287296,5.463024225712704,5.463024225712704
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_suture_1.csv,expert,9,expert__participant_9,suture,1,extra_trees,3,28.0,25.567065226692137,2.4329347733078635,2.4329347733078635
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_camera target_1.csv,trainee,3,trainee__participant_3,camera_target,1,extra_trees,3,15.0,18.101668694382777,-3.101668694382777,3.101668694382777
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_glove cut_1.csv,trainee,3,trainee__participant_3,glove_cut,1,extra_trees,3,17.0,19.42320979032609,-2.4232097903260907,2.4232097903260907
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_ring rollercoaster_1.csv,trainee,3,trainee__participant_3,ring_rollercoaster,1,extra_trees,3,12.0,17.5717775729389,-5.571777572938899,5.571777572938899
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_sea spikes_1.csv,trainee,3,trainee__participant_3,sea_spikes,1,extra_trees,3,15.0,18.235562265067344,-3.235562265067344,3.235562265067344
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_suture_1.csv,trainee,3,trainee__participant_3,suture,1,extra_trees,3,19.0,18.850429625708717,0.14957037429128306,0.14957037429128306
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_camera target_2.csv,trainee,3,trainee__participant_3,camera_target,2,extra_trees,3,23.0,18.538186890381006,4.461813109618994,4.461813109618994
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_glove cut_2.csv,trainee,3,trainee__participant_3,glove_cut,2,extra_trees,3,19.0,19.62370621100535,-0.6237062110053486,0.6237062110053486
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_ring rollercoaster_2.csv,trainee,3,trainee__participant_3,ring_rollercoaster,2,extra_trees,3,21.0,19.35655054126629,1.6434494587337092,1.6434494587337092
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_sea spikes_2.csv,trainee,3,trainee__participant_3,sea_spikes,2,extra_trees,3,17.0,19.58390477226496,-2.5839047722649617,2.5839047722649617
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_suture_2.csv,trainee,3,trainee__participant_3,suture,2,extra_trees,3,22.0,23.324322343035806,-1.3243223430358064,1.3243223430358064
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_camera target_2.csv,trainee,37,trainee__participant_37,camera_target,2,extra_trees,3,16.0,18.234314569021027,-2.234314569021027,2.234314569021027
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_glove cut_2.csv,trainee,37,trainee__participant_37,glove_cut,2,extra_trees,3,19.0,21.726821318749405,-2.726821318749405,2.726821318749405
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_camera target_2.csv,trainee,41,trainee__participant_41,camera_target,2,extra_trees,3,20.0,18.78958240999337,1.2104175900066316,1.2104175900066316
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_glove cut_2.csv,trainee,41,trainee__participant_41,glove_cut,2,extra_trees,3,19.0,19.182241657787145,-0.18224165778714507,0.18224165778714507
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_camera target_1.csv,trainee,32,trainee__participant_32,camera_target,1,extra_trees,3,20.0,20.245194577891947,-0.24519457789194732,0.24519457789194732
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_ring rollercoaster_1.csv,trainee,32,trainee__participant_32,ring_rollercoaster,1,extra_trees,3,17.0,16.573397115819166,0.42660288418083425,0.42660288418083425
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_sea spikes_1.csv,trainee,32,trainee__participant_32,sea_spikes,1,extra_trees,3,14.0,23.344676773843442,-9.344676773843442,9.344676773843442
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_32_glove cut_1.csv,trainee,32,trainee__participant_32,glove_cut,1,extra_trees,3,13.0,19.015610165603096,-6.015610165603096,6.015610165603096
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_camera target_1.csv,expert,6,expert__participant_6,camera_target,1,extra_trees,3,25.0,23.120373058455172,1.879626941544828,1.879626941544828
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_glove cut_1.csv,expert,6,expert__participant_6,glove_cut,1,extra_trees,3,23.0,20.927372628082985,2.072627371917015,2.072627371917015
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_ring rollercoaster_1.csv,expert,6,expert__participant_6,ring_rollercoaster,1,extra_trees,3,23.0,21.588814846503617,1.4111851534963833,1.4111851534963833
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_sea spikes_1.csv,expert,6,expert__participant_6,sea_spikes,1,extra_trees,3,23.0,21.34874066804088,1.6512593319591211,1.6512593319591211
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_suture_1.csv,expert,6,expert__participant_6,suture,1,extra_trees,3,26.0,23.115044667797715,2.884955332202285,2.884955332202285
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_glove cut_1.csv,trainee,15,trainee__participant_15,glove_cut,1,extra_trees,3,17.0,17.741061793482135,-0.7410617934821353,0.7410617934821353
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_ring rollercoaster_1.csv,trainee,15,trainee__participant_15,ring_rollercoaster,1,extra_trees,3,18.0,19.580272215381907,-1.5802722153819069,1.5802722153819069
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_sea spikes_1.csv,trainee,15,trainee__participant_15,sea_spikes,1,extra_trees,3,20.0,18.758747132446747,1.2412528675532535,1.2412528675532535
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_suture_1.csv,trainee,15,trainee__participant_15,suture,1,extra_trees,3,15.0,18.6342211669991,-3.634221166999101,3.634221166999101
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_camera target_1.csv,trainee,13,trainee__participant_13,camera_target,1,extra_trees,3,19.0,19.75971812770293,-0.7597181277029286,0.7597181277029286
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_glove cut_1.csv,trainee,13,trainee__participant_13,glove_cut,1,extra_trees,3,23.0,18.90313741810442,4.096862581895579,4.096862581895579
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_ring rollercoaster_1.csv,trainee,13,trainee__participant_13,ring_rollercoaster,1,extra_trees,3,17.0,20.625932913926157,-3.6259329139261567,3.6259329139261567
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_sea spikes_1.csv,trainee,13,trainee__participant_13,sea_spikes,1,extra_trees,3,17.0,19.663691047750003,-2.663691047750003,2.663691047750003
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_suture_1.csv,trainee,13,trainee__participant_13,suture,1,extra_trees,3,23.0,18.480371088195216,4.519628911804784,4.519628911804784
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_15_camera target_1.csv,trainee,15,trainee__participant_15,camera_target,1,extra_trees,3,18.0,20.211250177077666,-2.211250177077666,2.211250177077666
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_13_sea spikes_2.csv,trainee,13,trainee__participant_13,sea_spikes,2,extra_trees,3,21.0,23.150653736212195,-2.1506537362121954,2.1506537362121954
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_13_suture_2.csv,trainee,13,trainee__participant_13,suture,2,extra_trees,3,28.0,24.38635529167254,3.6136447083274597,3.6136447083274597
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_15_sea spikes_2.csv,trainee,15,trainee__participant_15,sea_spikes,2,extra_trees,3,23.0,21.447764043576914,1.552235956423086,1.552235956423086
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_15_suture_2.csv,trainee,15,trainee__participant_15,suture,2,extra_trees,3,26.0,23.756737445258686,2.243262554741314,2.243262554741314
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_13_camera target_2.csv,trainee,13,trainee__participant_13,camera_target,2,extra_trees,3,17.0,22.628515657069578,-5.628515657069578,5.628515657069578
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_18_camera target_2.csv,trainee,18,trainee__participant_18,camera_target,2,extra_trees,3,18.0,21.55684616329464,-3.55684616329464,3.55684616329464
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_18_suture_1.csv,trainee,18,trainee__participant_18,suture,1,extra_trees,3,12.0,17.840625481393452,-5.840625481393452,5.840625481393452
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_glove cut_2.csv,trainee,18,trainee__participant_18,glove_cut,2,extra_trees,3,22.0,22.342044230374956,-0.342044230374956,0.342044230374956
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_ring rollercoaster_2.csv,trainee,18,trainee__participant_18,ring_rollercoaster,2,extra_trees,3,24.0,20.579143403024993,3.420856596975007,3.420856596975007
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_sea spikes_2.csv,trainee,18,trainee__participant_18,sea_spikes,2,extra_trees,3,22.0,21.085425992501722,0.9145740074982776,0.9145740074982776
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_suture_2.csv,trainee,18,trainee__participant_18,suture,2,extra_trees,3,22.0,20.4828977092866,1.5171022907133995,1.5171022907133995
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_camera target_1.csv,expert,5,expert__participant_5,camera_target,1,extra_trees,4,30.0,23.27922077922078,6.720779220779221,6.720779220779221
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_glove cut_1.csv,expert,5,expert__participant_5,glove_cut,1,extra_trees,4,24.0,19.73051948051948,4.2694805194805205,4.2694805194805205
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_ring rollercoaster_1.csv,expert,5,expert__participant_5,ring_rollercoaster,1,extra_trees,4,24.0,19.931818181818183,4.068181818181817,4.068181818181817
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_sea spikes_1.csv,expert,5,expert__participant_5,sea_spikes,1,extra_trees,4,24.0,22.467532467532468,1.5324675324675319,1.5324675324675319
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_suture_1.csv,expert,5,expert__participant_5,suture,1,extra_trees,4,29.0,22.613636363636363,6.386363636363637,6.386363636363637
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_camera target_2.csv,trainee,40,trainee__participant_40,camera_target,2,extra_trees,4,24.0,24.09090909090909,-0.09090909090908994,0.09090909090908994
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_glove cut_2.csv,trainee,40,trainee__participant_40,glove_cut,2,extra_trees,4,24.0,22.23701298701299,1.7629870129870113,1.7629870129870113
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_camera target_1.csv,trainee,33,trainee__participant_33,camera_target,1,extra_trees,4,23.0,20.428571428571427,2.571428571428573,2.571428571428573
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_ring rollercoaster_1.csv,trainee,33,trainee__participant_33,ring_rollercoaster,1,extra_trees,4,21.0,20.01298701298701,0.9870129870129887,0.9870129870129887
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_sea spikes_1.csv,trainee,33,trainee__participant_33,sea_spikes,1,extra_trees,4,16.0,19.02922077922078,-3.029220779220779,3.029220779220779
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_camera target_2.csv,trainee,33,trainee__participant_33,camera_target,2,extra_trees,4,19.0,19.483766233766232,-0.4837662337662323,0.4837662337662323
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_glove cut_1.csv,trainee,33,trainee__participant_33,glove_cut,1,extra_trees,4,18.0,19.441558441558442,-1.441558441558442,1.441558441558442
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_sea spikes_2.csv,trainee,33,trainee__participant_33,sea_spikes,2,extra_trees,4,20.0,18.1525974025974,1.8474025974025992,1.8474025974025992
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_camera target_1.csv,expert,3,expert__participant_3,camera_target,1,extra_trees,4,27.0,21.337662337662337,5.662337662337663,5.662337662337663
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_ring rollercoaster_1.csv,expert,3,expert__participant_3,ring_rollercoaster,1,extra_trees,4,21.0,20.6525974025974,0.34740259740259916,0.34740259740259916
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_sea spikes_1.csv,expert,3,expert__participant_3,sea_spikes,1,extra_trees,4,23.0,20.38961038961039,2.6103896103896105,2.6103896103896105
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_suture_1.csv,expert,3,expert__participant_3,suture,1,extra_trees,4,28.0,21.483766233766232,6.516233766233768,6.516233766233768
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_7_ring rollercoaster_1.csv,trainee,7,trainee__participant_7,ring_rollercoaster,1,extra_trees,4,15.0,17.40909090909091,-2.40909090909091,2.40909090909091
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_7_sea spikes_1.csv,trainee,7,trainee__participant_7,sea_spikes,1,extra_trees,4,19.0,17.136363636363637,1.8636363636363633,1.8636363636363633
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_9_ring rollercoaster_1.csv,trainee,9,trainee__participant_9,ring_rollercoaster,1,extra_trees,4,14.0,18.801948051948052,-4.801948051948052,4.801948051948052
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_9_sea spikes_1.csv,trainee,9,trainee__participant_9,sea_spikes,1,extra_trees,4,18.0,19.185064935064936,-1.1850649350649363,1.1850649350649363
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_7_camera target_1.csv,trainee,7,trainee__participant_7,camera_target,1,extra_trees,4,17.0,18.227272727272727,-1.2272727272727266,1.2272727272727266
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_7_glove cut_1.csv,trainee,7,trainee__participant_7,glove_cut,1,extra_trees,4,15.0,17.717532467532468,-2.717532467532468,2.717532467532468
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_9_camera target_1.csv,trainee,9,trainee__participant_9,camera_target,1,extra_trees,4,19.0,19.59090909090909,-0.5909090909090899,0.5909090909090899
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_9_glove cut_1.csv,trainee,9,trainee__participant_9,glove_cut,1,extra_trees,4,18.0,19.074675324675326,-1.0746753246753258,1.0746753246753258
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_7_suture_1.csv,trainee,7,trainee__participant_7,suture,1,extra_trees,4,17.0,17.275974025974026,-0.2759740259740262,0.2759740259740262
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_9_suture_1.csv,trainee,9,trainee__participant_9,suture,1,extra_trees,4,16.0,18.116883116883116,-2.116883116883116,2.116883116883116
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_ring rollercoaster_2.csv,trainee,7,trainee__participant_7,ring_rollercoaster,2,extra_trees,4,18.0,19.67207792207792,-1.6720779220779214,1.6720779220779214
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_sea spikes_2.csv,trainee,7,trainee__participant_7,sea_spikes,2,extra_trees,4,20.0,18.461038961038962,1.5389610389610375,1.5389610389610375
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_ring rollercoaster_2.csv,trainee,9,trainee__participant_9,ring_rollercoaster,2,extra_trees,4,20.0,18.655844155844157,1.3441558441558428,1.3441558441558428
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_sea spikes_2.csv,trainee,9,trainee__participant_9,sea_spikes,2,extra_trees,4,22.0,19.48051948051948,2.5194805194805205,2.5194805194805205
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_glove cut_1.csv,trainee,12,trainee__participant_12,glove_cut,1,extra_trees,4,21.0,16.9512987012987,4.0487012987013,4.0487012987013
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_ring rollercoaster_1.csv,trainee,12,trainee__participant_12,ring_rollercoaster,1,extra_trees,4,16.0,19.318181818181817,-3.3181818181818166,3.3181818181818166
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_sea spikes_1.csv,trainee,12,trainee__participant_12,sea_spikes,1,extra_trees,4,12.0,18.064935064935064,-6.064935064935064,6.064935064935064
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_glove cut_1.csv,trainee,16,trainee__participant_16,glove_cut,1,extra_trees,4,15.0,16.782467532467532,-1.7824675324675319,1.7824675324675319
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_ring rollercoaster_1.csv,trainee,16,trainee__participant_16,ring_rollercoaster,1,extra_trees,4,20.0,17.74025974025974,2.2597402597402585,2.2597402597402585
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_sea spikes_1.csv,trainee,16,trainee__participant_16,sea_spikes,1,extra_trees,4,16.0,16.26948051948052,-0.26948051948052054,0.26948051948052054
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_suture_1.csv,trainee,16,trainee__participant_16,suture,1,extra_trees,4,21.0,15.831168831168831,5.1688311688311686,5.1688311688311686
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_12_camera target_1.csv,trainee,12,trainee__participant_12,camera_target,1,extra_trees,4,16.0,21.243506493506494,-5.243506493506494,5.243506493506494
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_16_camera target_1.csv,trainee,16,trainee__participant_16,camera_target,1,extra_trees,4,23.0,19.691558441558442,3.308441558441558,3.308441558441558
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_16_ring rollercoaster_2.csv,trainee,16,trainee__participant_16,ring_rollercoaster,2,extra_trees,4,23.0,19.801948051948052,3.1980519480519476,3.1980519480519476
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_12_suture_2.csv,trainee,12,trainee__participant_12,suture,2,extra_trees,4,28.0,25.892857142857142,2.1071428571428577,2.1071428571428577
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_16_sea spikes_2.csv,trainee,16,trainee__participant_16,sea_spikes,2,extra_trees,4,21.0,21.314935064935064,-0.31493506493506374,0.31493506493506374
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_16_suture_2.csv,trainee,16,trainee__participant_16,suture,2,extra_trees,4,29.0,25.136363636363637,3.8636363636363633,3.8636363636363633
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_12_glove cut_2.csv,trainee,12,trainee__participant_12,glove_cut,2,extra_trees,4,20.0,17.905844155844157,2.0941558441558428,2.0941558441558428
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_16_camera target_2.csv,trainee,16,trainee__participant_16,camera_target,2,extra_trees,4,23.0,18.243506493506494,4.756493506493506,4.756493506493506
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_16_glove cut_2.csv,trainee,16,trainee__participant_16,glove_cut,2,extra_trees,4,24.0,17.86038961038961,6.1396103896103895,6.1396103896103895
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_camera target_1.csv,expert,10,expert__participant_10,camera_target,1,extra_trees,5,30.0,26.686997885835083,3.3130021141649166,3.3130021141649166
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_glove cut_1.csv,expert,10,expert__participant_10,glove_cut,1,extra_trees,5,28.0,25.304452406883712,2.695547593116288,2.695547593116288
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_ring rollercoaster_1.csv,expert,10,expert__participant_10,ring_rollercoaster,1,extra_trees,5,29.0,22.55904818553904,6.440951814460959,6.440951814460959
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_sea spikes_1.csv,expert,10,expert__participant_10,sea_spikes,1,extra_trees,5,29.0,24.015464696801917,4.984535303198083,4.984535303198083
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_suture_1.csv,expert,10,expert__participant_10,suture,1,extra_trees,5,30.0,26.205887489658974,3.7941125103410265,3.7941125103410265
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_camera target_1.csv,trainee,1,trainee__participant_1,camera_target,1,extra_trees,5,17.0,18.88419420278334,-1.8841942027833412,1.8841942027833412
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_glove cut_1.csv,trainee,1,trainee__participant_1,glove_cut,1,extra_trees,5,15.0,16.10311041510031,-1.1031104151003106,1.1031104151003106
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_ring rollercoaster_1.csv,trainee,1,trainee__participant_1,ring_rollercoaster,1,extra_trees,5,14.0,17.470575596947505,-3.470575596947505,3.470575596947505
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_sea spikes_1.csv,trainee,1,trainee__participant_1,sea_spikes,1,extra_trees,5,13.0,16.232030733231817,-3.2320307332318166,3.2320307332318166
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_suture_1.csv,trainee,1,trainee__participant_1,suture,1,extra_trees,5,19.0,16.634001078541537,2.3659989214584627,2.3659989214584627
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_camera target_2.csv,trainee,1,trainee__participant_1,camera_target,2,extra_trees,5,19.0,17.928088242970038,1.0719117570299623,1.0719117570299623
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_glove cut_2.csv,trainee,1,trainee__participant_1,glove_cut,2,extra_trees,5,19.0,17.79488026794674,1.2051197320532587,1.2051197320532587
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_ring rollercoaster_2.csv,trainee,1,trainee__participant_1,ring_rollercoaster,2,extra_trees,5,20.0,18.73020738816699,1.2697926118330116,1.2697926118330116
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_sea spikes_2.csv,trainee,1,trainee__participant_1,sea_spikes,2,extra_trees,5,19.0,19.095959577514652,-0.09595957751465178,0.09595957751465178
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_suture_2.csv,trainee,1,trainee__participant_1,suture,2,extra_trees,5,17.0,18.48763082063017,-1.4876308206301694,1.4876308206301694
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_camera target_2.csv,trainee,39,trainee__participant_39,camera_target,2,extra_trees,5,19.0,23.948036618068343,-4.948036618068343,4.948036618068343
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_glove cut_2.csv,trainee,39,trainee__participant_39,glove_cut,2,extra_trees,5,22.0,20.065803136148702,1.934196863851298,1.934196863851298
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_camera target_1.csv,expert,2,expert__participant_2,camera_target,1,extra_trees,5,25.0,23.736363636363635,1.2636363636363654,1.2636363636363654
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_glove cut_1.csv,expert,2,expert__participant_2,glove_cut,1,extra_trees,5,19.0,18.01860219878187,0.9813978012181295,0.9813978012181295
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_ring rollercoaster_1.csv,expert,2,expert__participant_2,ring_rollercoaster,1,extra_trees,5,20.0,20.6975307751111,-0.6975307751111011,0.6975307751111011
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_sea spikes_1.csv,expert,2,expert__participant_2,sea_spikes,1,extra_trees,5,18.0,21.23854254502626,-3.2385425450262595,3.2385425450262595
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_10_ring rollercoaster_1.csv,trainee,10,trainee__participant_10,ring_rollercoaster,1,extra_trees,5,14.0,18.369968702568364,-4.3699687025683644,4.3699687025683644
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_10_sea spikes_1.csv,trainee,10,trainee__participant_10,sea_spikes,1,extra_trees,5,22.0,17.281343301061597,4.718656698938403,4.718656698938403
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_6_ring rollercoaster_1.csv,trainee,6,trainee__participant_6,ring_rollercoaster,1,extra_trees,5,16.0,21.00344553218963,-5.00344553218963,5.00344553218963
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_6_sea spikes_1.csv,trainee,6,trainee__participant_6,sea_spikes,1,extra_trees,5,16.0,17.68331440702086,-1.683314407020859,1.683314407020859
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_8_ring rollercoaster_1.csv,trainee,8,trainee__participant_8,ring_rollercoaster,1,extra_trees,5,12.0,16.46380530825702,-4.463805308257019,4.463805308257019
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_8_sea spikes_1.csv,trainee,8,trainee__participant_8,sea_spikes,1,extra_trees,5,18.0,16.96434138543577,1.0356586145642304,1.0356586145642304
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_10_glove cut_1.csv,trainee,10,trainee__participant_10,glove_cut,1,extra_trees,5,18.0,14.600093028594614,3.399906971405386,3.399906971405386
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_6_camera target_1.csv,trainee,6,trainee__participant_6,camera_target,1,extra_trees,5,16.0,18.423888414434156,-2.423888414434156,2.423888414434156
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_6_glove cut_1.csv,trainee,6,trainee__participant_6,glove_cut,1,extra_trees,5,15.0,13.294633590510962,1.705366409489038,1.705366409489038
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_8_camera target_1.csv,trainee,8,trainee__participant_8,camera_target,1,extra_trees,5,10.0,10.266128515599966,-0.2661285155999664,0.2661285155999664
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_8_glove cut_1.csv,trainee,8,trainee__participant_8,glove_cut,1,extra_trees,5,17.0,17.426103342045838,-0.4261033420458382,0.4261033420458382
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_10_suture_1.csv,trainee,10,trainee__participant_10,suture,1,extra_trees,5,19.0,20.17268179163622,-1.1726817916362187,1.1726817916362187
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_6_suture_1.csv,trainee,6,trainee__participant_6,suture,1,extra_trees,5,12.0,18.244749414257893,-6.2447494142578925,6.2447494142578925
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_8_suture_1.csv,trainee,8,trainee__participant_8,suture,1,extra_trees,5,17.0,19.368123205833534,-2.368123205833534,2.368123205833534
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_ring rollercoaster_2.csv,trainee,10,trainee__participant_10,ring_rollercoaster,2,extra_trees,5,18.0,18.096758245855074,-0.09675824585507442,0.09675824585507442
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_sea spikes_2.csv,trainee,10,trainee__participant_10,sea_spikes,2,extra_trees,5,22.0,19.64165317059434,2.3583468294056615,2.3583468294056615
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_ring rollercoaster_2.csv,trainee,6,trainee__participant_6,ring_rollercoaster,2,extra_trees,5,18.0,20.955781069636465,-2.9557810696364655,2.9557810696364655
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_sea spikes_2.csv,trainee,6,trainee__participant_6,sea_spikes,2,extra_trees,5,20.0,20.754455511971248,-0.7544555119712477,0.7544555119712477
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_ring rollercoaster_2.csv,trainee,8,trainee__participant_8,ring_rollercoaster,2,extra_trees,5,16.0,17.59769643419809,-1.5976964341980917,1.5976964341980917
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_sea spikes_2.csv,trainee,8,trainee__participant_8,sea_spikes,2,extra_trees,5,20.0,18.520559725762464,1.479440274237536,1.479440274237536
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_20_camera target_2.csv,trainee,20,trainee__participant_20,camera_target,2,extra_trees,5,14.0,19.38850949033877,-5.38850949033877,5.38850949033877
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_20_camera target_1.csv,trainee,20,trainee__participant_20,camera_target,1,extra_trees,5,15.0,16.847046364488232,-1.8470463644882322,1.8470463644882322
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_20_suture_1.csv,trainee,20,trainee__participant_20,suture,1,extra_trees,5,13.0,17.008122958675376,-4.008122958675376,4.008122958675376
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_glove cut_2.csv,trainee,20,trainee__participant_20,glove_cut,2,extra_trees,5,17.0,18.912411683501393,-1.912411683501393,1.912411683501393
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_ring rollercoaster_2.csv,trainee,20,trainee__participant_20,ring_rollercoaster,2,extra_trees,5,21.0,18.98492681465959,2.015073185340409,2.015073185340409
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_sea spikes_2.csv,trainee,20,trainee__participant_20,sea_spikes,2,extra_trees,5,21.0,20.071467612151253,0.9285323878487475,0.9285323878487475
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_camera target_1.csv,expert,8,expert__participant_8,camera_target,1,hist_gradient_boosting,1,28.0,25.342171226044538,2.657828773955462,2.657828773955462
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_glove cut_1.csv,expert,8,expert__participant_8,glove_cut,1,hist_gradient_boosting,1,24.0,23.978101477049776,0.021898522950223764,0.021898522950223764
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_ring rollercoaster_1.csv,expert,8,expert__participant_8,ring_rollercoaster,1,hist_gradient_boosting,1,24.0,23.141472139345108,0.8585278606548918,0.8585278606548918
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_sea spikes_1.csv,expert,8,expert__participant_8,sea_spikes,1,hist_gradient_boosting,1,22.0,20.604340998812976,1.395659001187024,1.395659001187024
+DVST_XI_11-14_Aug_2025_14_10.45.28_expert_8_suture_1.csv,expert,8,expert__participant_8,suture,1,hist_gradient_boosting,1,29.0,27.930914826771495,1.0690851732285047,1.0690851732285047
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_camera target_1.csv,trainee,2,trainee__participant_2,camera_target,1,hist_gradient_boosting,1,17.0,16.840033486522497,0.15996651347750301,0.15996651347750301
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_glove cut_1.csv,trainee,2,trainee__participant_2,glove_cut,1,hist_gradient_boosting,1,13.0,18.753473109488294,-5.753473109488294,5.753473109488294
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_ring rollercoaster_1.csv,trainee,2,trainee__participant_2,ring_rollercoaster,1,hist_gradient_boosting,1,14.0,17.469910899230857,-3.4699108992308574,3.4699108992308574
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_2_sea spikes_1.csv,trainee,2,trainee__participant_2,sea_spikes,1,hist_gradient_boosting,1,15.0,18.26611666578604,-3.26611666578604,3.26611666578604
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_camera target_1.csv,trainee,5,trainee__participant_5,camera_target,1,hist_gradient_boosting,1,7.0,15.020213441305177,-8.020213441305177,8.020213441305177
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_glove cut_1.csv,trainee,5,trainee__participant_5,glove_cut,1,hist_gradient_boosting,1,11.0,14.68906919694913,-3.6890691969491307,3.6890691969491307
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_ring rollercoaster_1.csv,trainee,5,trainee__participant_5,ring_rollercoaster,1,hist_gradient_boosting,1,17.0,13.433540753863065,3.566459246136935,3.566459246136935
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_sea spikes_1.csv,trainee,5,trainee__participant_5,sea_spikes,1,hist_gradient_boosting,1,16.0,14.978225752769863,1.0217742472301374,1.0217742472301374
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_5_suture_1.csv,trainee,5,trainee__participant_5,suture,1,hist_gradient_boosting,1,16.0,17.618580211829183,-1.6185802118291832,1.6185802118291832
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_camera target_2.csv,trainee,2,trainee__participant_2,camera_target,2,hist_gradient_boosting,1,16.0,19.697075822492685,-3.6970758224926854,3.6970758224926854
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_glove cut_2.csv,trainee,2,trainee__participant_2,glove_cut,2,hist_gradient_boosting,1,19.0,18.392428795827087,0.6075712041729133,0.6075712041729133
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_ring rollercoaster_2.csv,trainee,2,trainee__participant_2,ring_rollercoaster,2,hist_gradient_boosting,1,21.0,15.460536018397207,5.539463981602793,5.539463981602793
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_sea spikes_2.csv,trainee,2,trainee__participant_2,sea_spikes,2,hist_gradient_boosting,1,17.0,18.170677538332523,-1.170677538332523,1.170677538332523
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_2_suture_2.csv,trainee,2,trainee__participant_2,suture,2,hist_gradient_boosting,1,22.0,23.955272412756308,-1.9552724127563081,1.9552724127563081
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_camera target_2.csv,trainee,5,trainee__participant_5,camera_target,2,hist_gradient_boosting,1,21.0,18.431079693434587,2.5689203065654134,2.5689203065654134
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_glove cut_2.csv,trainee,5,trainee__participant_5,glove_cut,2,hist_gradient_boosting,1,19.0,17.06951029314834,1.9304897068516595,1.9304897068516595
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_ring rollercoaster_2.csv,trainee,5,trainee__participant_5,ring_rollercoaster,2,hist_gradient_boosting,1,23.0,14.189065172123673,8.810934827876327,8.810934827876327
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_sea spikes_2.csv,trainee,5,trainee__participant_5,sea_spikes,2,hist_gradient_boosting,1,21.0,20.383354943774265,0.6166450562257353,0.6166450562257353
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_5_suture_2.csv,trainee,5,trainee__participant_5,suture,2,hist_gradient_boosting,1,21.0,16.82858820972877,4.171411790271229,4.171411790271229
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_31_ring rollercoaster_1.csv,trainee,31,trainee__participant_31,ring_rollercoaster,1,hist_gradient_boosting,1,15.0,17.727876035820596,-2.7278760358205965,2.7278760358205965
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_31_sea spikes_1.csv,trainee,31,trainee__participant_31,sea_spikes,1,hist_gradient_boosting,1,13.0,16.703020756201674,-3.703020756201674,3.703020756201674
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_36_ring rollercoaster_1.csv,trainee,36,trainee__participant_36,ring_rollercoaster,1,hist_gradient_boosting,1,19.0,14.228699469915409,4.771300530084591,4.771300530084591
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_36_sea spikes_1.csv,trainee,36,trainee__participant_36,sea_spikes,1,hist_gradient_boosting,1,16.0,16.12601915389579,-0.12601915389578977,0.12601915389578977
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_camera target_1.csv,expert,1,expert__participant_1,camera_target,1,hist_gradient_boosting,1,26.0,27.049405524092627,-1.0494055240926272,1.0494055240926272
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_glove cut_1.csv,expert,1,expert__participant_1,glove_cut,1,hist_gradient_boosting,1,20.0,21.276616284817102,-1.276616284817102,1.276616284817102
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_ring rollercoaster_1.csv,expert,1,expert__participant_1,ring_rollercoaster,1,hist_gradient_boosting,1,21.0,22.594533220122763,-1.5945332201227629,1.5945332201227629
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_sea spikes_1.csv,expert,1,expert__participant_1,sea_spikes,1,hist_gradient_boosting,1,23.0,25.009596902188186,-2.0095969021881857,2.0095969021881857
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_1_suture_1.csv,expert,1,expert__participant_1,suture,1,hist_gradient_boosting,1,26.0,25.27827520695536,0.7217247930446398,0.7217247930446398
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_31_glove cut_1.csv,trainee,31,trainee__participant_31,glove_cut,1,hist_gradient_boosting,1,16.0,16.280052188543422,-0.2800521885434222,0.2800521885434222
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_36_glove cut_1.csv,trainee,36,trainee__participant_36,glove_cut,1,hist_gradient_boosting,1,18.0,17.423718990524804,0.5762810094751956,0.5762810094751956
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_11_ring rollercoaster_1.csv,trainee,11,trainee__participant_11,ring_rollercoaster,1,hist_gradient_boosting,1,18.0,15.688464196118158,2.311535803881842,2.311535803881842
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_11_sea spikes_1.csv,trainee,11,trainee__participant_11,sea_spikes,1,hist_gradient_boosting,1,18.0,19.473094982151384,-1.473094982151384,1.473094982151384
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_11_camera target_1.csv,trainee,11,trainee__participant_11,camera_target,1,hist_gradient_boosting,1,10.0,14.328009998266019,-4.328009998266019,4.328009998266019
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_11_glove cut_1.csv,trainee,11,trainee__participant_11,glove_cut,1,hist_gradient_boosting,1,18.0,17.722495181767314,0.2775048182326856,0.2775048182326856
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_11_suture_1.csv,trainee,11,trainee__participant_11,suture,1,hist_gradient_boosting,1,18.0,19.472502948316134,-1.4725029483161336,1.4725029483161336
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_ring rollercoaster_2.csv,trainee,11,trainee__participant_11,ring_rollercoaster,2,hist_gradient_boosting,1,16.0,17.389600402136566,-1.3896004021365655,1.3896004021365655
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_11_sea spikes_2.csv,trainee,11,trainee__participant_11,sea_spikes,2,hist_gradient_boosting,1,18.0,20.498567170090986,-2.498567170090986,2.498567170090986
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_17_camera target_2.csv,trainee,17,trainee__participant_17,camera_target,2,hist_gradient_boosting,1,22.0,21.590876136435966,0.40912386356403374,0.40912386356403374
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_17_camera target_1.csv,trainee,17,trainee__participant_17,camera_target,1,hist_gradient_boosting,1,23.0,18.779316677120423,4.220683322879577,4.220683322879577
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_17_suture_1.csv,trainee,17,trainee__participant_17,suture,1,hist_gradient_boosting,1,15.0,21.459478601572762,-6.459478601572762,6.459478601572762
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_glove cut_2.csv,trainee,17,trainee__participant_17,glove_cut,2,hist_gradient_boosting,1,22.0,20.593975612672473,1.4060243873275269,1.4060243873275269
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_ring rollercoaster_2.csv,trainee,17,trainee__participant_17,ring_rollercoaster,2,hist_gradient_boosting,1,22.0,19.15341471995812,2.8465852800418787,2.8465852800418787
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_17_sea spikes_2.csv,trainee,17,trainee__participant_17,sea_spikes,2,hist_gradient_boosting,1,22.0,21.72420764662098,0.2757923533790212,0.2757923533790212
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_camera target_1.csv,expert,7,expert__participant_7,camera_target,1,hist_gradient_boosting,2,28.0,25.06928629956653,2.9307137004334685,2.9307137004334685
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_glove cut_1.csv,expert,7,expert__participant_7,glove_cut,1,hist_gradient_boosting,2,25.0,22.652768065806846,2.347231934193154,2.347231934193154
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_ring rollercoaster_1.csv,expert,7,expert__participant_7,ring_rollercoaster,1,hist_gradient_boosting,2,20.0,20.328243596191346,-0.3282435961913457,0.3282435961913457
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_sea spikes_1.csv,expert,7,expert__participant_7,sea_spikes,1,hist_gradient_boosting,2,20.0,23.356406149195635,-3.356406149195635,3.356406149195635
+DVST_XI_11-14_Aug_2025_13_11.33.24_expert_7_suture_1.csv,expert,7,expert__participant_7,suture,1,hist_gradient_boosting,2,29.0,24.75084490844673,4.24915509155327,4.24915509155327
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_camera target_1.csv,trainee,4,trainee__participant_4,camera_target,1,hist_gradient_boosting,2,16.0,16.273117857058704,-0.27311785705870406,0.27311785705870406
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_glove cut_1.csv,trainee,4,trainee__participant_4,glove_cut,1,hist_gradient_boosting,2,23.0,18.052586887747122,4.947413112252878,4.947413112252878
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_ring rollercoaster_1.csv,trainee,4,trainee__participant_4,ring_rollercoaster,1,hist_gradient_boosting,2,14.0,16.945508563681784,-2.945508563681784,2.945508563681784
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_sea spikes_1.csv,trainee,4,trainee__participant_4,sea_spikes,1,hist_gradient_boosting,2,18.0,16.210506404143086,1.7894935958569143,1.7894935958569143
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_4_suture_1.csv,trainee,4,trainee__participant_4,suture,1,hist_gradient_boosting,2,18.0,17.96796009411583,0.03203990588416872,0.03203990588416872
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_camera target_2.csv,trainee,4,trainee__participant_4,camera_target,2,hist_gradient_boosting,2,23.0,17.502553172577777,5.497446827422223,5.497446827422223
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_glove cut_2.csv,trainee,4,trainee__participant_4,glove_cut,2,hist_gradient_boosting,2,24.0,18.853693236828608,5.146306763171392,5.146306763171392
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_ring rollercoaster_2.csv,trainee,4,trainee__participant_4,ring_rollercoaster,2,hist_gradient_boosting,2,24.0,17.015187330752727,6.9848126692472725,6.9848126692472725
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_sea spikes_2.csv,trainee,4,trainee__participant_4,sea_spikes,2,hist_gradient_boosting,2,24.0,18.191072256282375,5.808927743717625,5.808927743717625
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_4_suture_2.csv,trainee,4,trainee__participant_4,suture,2,hist_gradient_boosting,2,22.0,23.46720388885926,-1.4672038888592596,1.4672038888592596
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_camera target_2.csv,trainee,38,trainee__participant_38,camera_target,2,hist_gradient_boosting,2,22.0,26.76987824655427,-4.769878246554271,4.769878246554271
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_38_glove cut_2.csv,trainee,38,trainee__participant_38,glove_cut,2,hist_gradient_boosting,2,18.0,23.81752071152445,-5.817520711524448,5.817520711524448
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_camera target_2.csv,trainee,42,trainee__participant_42,camera_target,2,hist_gradient_boosting,2,19.0,18.025640972737484,0.9743590272625156,0.9743590272625156
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_42_glove cut_2.csv,trainee,42,trainee__participant_42,glove_cut,2,hist_gradient_boosting,2,16.0,19.296634939139558,-3.296634939139558,3.296634939139558
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_camera target_1.csv,trainee,34,trainee__participant_34,camera_target,1,hist_gradient_boosting,2,18.0,19.220848817770214,-1.2208488177702144,1.2208488177702144
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_ring rollercoaster_1.csv,trainee,34,trainee__participant_34,ring_rollercoaster,1,hist_gradient_boosting,2,14.0,17.11153488814173,-3.1115348881417297,3.1115348881417297
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_34_sea spikes_1.csv,trainee,34,trainee__participant_34,sea_spikes,1,hist_gradient_boosting,2,14.0,15.321051592752319,-1.321051592752319,1.321051592752319
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_35_ring rollercoaster_1.csv,trainee,35,trainee__participant_35,ring_rollercoaster,1,hist_gradient_boosting,2,18.0,15.113586194124627,2.8864138058753728,2.8864138058753728
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_35_sea spikes_1.csv,trainee,35,trainee__participant_35,sea_spikes,1,hist_gradient_boosting,2,15.0,15.815370946177667,-0.8153709461776675,0.8153709461776675
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_34_glove cut_1.csv,trainee,34,trainee__participant_34,glove_cut,1,hist_gradient_boosting,2,12.0,15.639058746795989,-3.639058746795989,3.639058746795989
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_camera target_2.csv,trainee,35,trainee__participant_35,camera_target,2,hist_gradient_boosting,2,18.0,23.02805815892041,-5.028058158920409,5.028058158920409
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_glove cut_1.csv,trainee,35,trainee__participant_35,glove_cut,1,hist_gradient_boosting,2,16.0,21.32433501271867,-5.32433501271867,5.32433501271867
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_35_sea spikes_2.csv,trainee,35,trainee__participant_35,sea_spikes,2,hist_gradient_boosting,2,21.0,20.890421980710684,0.10957801928931588,0.10957801928931588
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_glove cut_1.csv,trainee,14,trainee__participant_14,glove_cut,1,hist_gradient_boosting,2,11.0,17.46504856028991,-6.465048560289912,6.465048560289912
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_ring rollercoaster_1.csv,trainee,14,trainee__participant_14,ring_rollercoaster,1,hist_gradient_boosting,2,16.0,20.163800322203215,-4.163800322203215,4.163800322203215
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_sea spikes_1.csv,trainee,14,trainee__participant_14,sea_spikes,1,hist_gradient_boosting,2,12.0,15.293639690278404,-3.293639690278404,3.293639690278404
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_14_suture_1.csv,trainee,14,trainee__participant_14,suture,1,hist_gradient_boosting,2,15.0,18.912113374125965,-3.9121133741259655,3.9121133741259655
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_14_camera target_1.csv,trainee,14,trainee__participant_14,camera_target,1,hist_gradient_boosting,2,14.0,15.836787239457989,-1.8367872394579887,1.8367872394579887
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_14_sea spikes_2.csv,trainee,14,trainee__participant_14,sea_spikes,2,hist_gradient_boosting,2,20.0,19.8613301710681,0.13866982893189927,0.13866982893189927
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_14_suture_2.csv,trainee,14,trainee__participant_14,suture,2,hist_gradient_boosting,2,29.0,24.245781584763968,4.754218415236032,4.754218415236032
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_14_glove cut_2.csv,trainee,14,trainee__participant_14,glove_cut,2,hist_gradient_boosting,2,18.0,18.07727859609785,-0.0772785960978517,0.0772785960978517
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_19_camera target_2.csv,trainee,19,trainee__participant_19,camera_target,2,hist_gradient_boosting,2,18.0,19.087203862785667,-1.0872038627856675,1.0872038627856675
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_21_camera target_2.csv,trainee,21,trainee__participant_21,camera_target,2,hist_gradient_boosting,2,23.0,22.075770043370852,0.9242299566291479,0.9242299566291479
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_19_camera target_1.csv,trainee,19,trainee__participant_19,camera_target,1,hist_gradient_boosting,2,17.0,17.07810861566683,-0.07810861566683158,0.07810861566683158
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_19_suture_1.csv,trainee,19,trainee__participant_19,suture,1,hist_gradient_boosting,2,16.0,18.001068962863204,-2.0010689628632043,2.0010689628632043
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_21_camera target_1.csv,trainee,21,trainee__participant_21,camera_target,1,hist_gradient_boosting,2,19.0,18.997980442259895,0.0020195577401054265,0.0020195577401054265
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_21_suture_1.csv,trainee,21,trainee__participant_21,suture,1,hist_gradient_boosting,2,18.0,18.252160218288957,-0.25216021828895663,0.25216021828895663
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_glove cut_2.csv,trainee,19,trainee__participant_19,glove_cut,2,hist_gradient_boosting,2,17.0,17.41029529676222,-0.41029529676222154,0.41029529676222154
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_ring rollercoaster_2.csv,trainee,19,trainee__participant_19,ring_rollercoaster,2,hist_gradient_boosting,2,22.0,18.038807543253085,3.9611924567469146,3.9611924567469146
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_19_sea spikes_2.csv,trainee,19,trainee__participant_19,sea_spikes,2,hist_gradient_boosting,2,21.0,19.326904576716398,1.673095423283602,1.673095423283602
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_glove cut_2.csv,trainee,21,trainee__participant_21,glove_cut,2,hist_gradient_boosting,2,25.0,22.532321261764032,2.4676787382359677,2.4676787382359677
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_ring rollercoaster_2.csv,trainee,21,trainee__participant_21,ring_rollercoaster,2,hist_gradient_boosting,2,22.0,19.174310203121898,2.825689796878102,2.825689796878102
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_sea spikes_2.csv,trainee,21,trainee__participant_21,sea_spikes,2,hist_gradient_boosting,2,22.0,21.544057058483073,0.45594294151692694,0.45594294151692694
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_21_suture_2.csv,trainee,21,trainee__participant_21,suture,2,hist_gradient_boosting,2,23.0,21.257615008556524,1.7423849914434761,1.7423849914434761
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_camera target_1.csv,expert,9,expert__participant_9,camera_target,1,hist_gradient_boosting,3,28.0,24.020543335591736,3.9794566644082643,3.9794566644082643
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_glove cut_1.csv,expert,9,expert__participant_9,glove_cut,1,hist_gradient_boosting,3,29.0,24.384925225951278,4.615074774048722,4.615074774048722
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_ring rollercoaster_1.csv,expert,9,expert__participant_9,ring_rollercoaster,1,hist_gradient_boosting,3,29.0,22.792598601999,6.207401398001,6.207401398001
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_sea spikes_1.csv,expert,9,expert__participant_9,sea_spikes,1,hist_gradient_boosting,3,29.0,23.203898919307484,5.796101080692516,5.796101080692516
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_9_suture_1.csv,expert,9,expert__participant_9,suture,1,hist_gradient_boosting,3,28.0,25.21311248723245,2.7868875127675494,2.7868875127675494
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_camera target_1.csv,trainee,3,trainee__participant_3,camera_target,1,hist_gradient_boosting,3,15.0,18.156433257665867,-3.156433257665867,3.156433257665867
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_glove cut_1.csv,trainee,3,trainee__participant_3,glove_cut,1,hist_gradient_boosting,3,17.0,19.919967864077716,-2.919967864077716,2.919967864077716
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_ring rollercoaster_1.csv,trainee,3,trainee__participant_3,ring_rollercoaster,1,hist_gradient_boosting,3,12.0,17.663450707912045,-5.663450707912045,5.663450707912045
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_sea spikes_1.csv,trainee,3,trainee__participant_3,sea_spikes,1,hist_gradient_boosting,3,15.0,18.119762017451002,-3.119762017451002,3.119762017451002
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_3_suture_1.csv,trainee,3,trainee__participant_3,suture,1,hist_gradient_boosting,3,19.0,18.417292366630914,0.5827076333690862,0.5827076333690862
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_camera target_2.csv,trainee,3,trainee__participant_3,camera_target,2,hist_gradient_boosting,3,23.0,19.326505765871275,3.673494234128725,3.673494234128725
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_glove cut_2.csv,trainee,3,trainee__participant_3,glove_cut,2,hist_gradient_boosting,3,19.0,19.884627546179118,-0.884627546179118,0.884627546179118
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_ring rollercoaster_2.csv,trainee,3,trainee__participant_3,ring_rollercoaster,2,hist_gradient_boosting,3,21.0,18.506382212807083,2.4936177871929175,2.4936177871929175
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_sea spikes_2.csv,trainee,3,trainee__participant_3,sea_spikes,2,hist_gradient_boosting,3,17.0,19.091284365155502,-2.091284365155502,2.091284365155502
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_3_suture_2.csv,trainee,3,trainee__participant_3,suture,2,hist_gradient_boosting,3,22.0,23.82248110732847,-1.8224811073284712,1.8224811073284712
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_camera target_2.csv,trainee,37,trainee__participant_37,camera_target,2,hist_gradient_boosting,3,16.0,15.297518194553252,0.7024818054467481,0.7024818054467481
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_37_glove cut_2.csv,trainee,37,trainee__participant_37,glove_cut,2,hist_gradient_boosting,3,19.0,18.72007356626633,0.2799264337336709,0.2799264337336709
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_camera target_2.csv,trainee,41,trainee__participant_41,camera_target,2,hist_gradient_boosting,3,20.0,16.92941520392317,3.0705847960768295,3.0705847960768295
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_41_glove cut_2.csv,trainee,41,trainee__participant_41,glove_cut,2,hist_gradient_boosting,3,19.0,19.41068418268567,-0.41068418268567086,0.41068418268567086
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_camera target_1.csv,trainee,32,trainee__participant_32,camera_target,1,hist_gradient_boosting,3,20.0,19.705249962988876,0.29475003701112357,0.29475003701112357
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_ring rollercoaster_1.csv,trainee,32,trainee__participant_32,ring_rollercoaster,1,hist_gradient_boosting,3,17.0,17.588576921486514,-0.5885769214865135,0.5885769214865135
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_32_sea spikes_1.csv,trainee,32,trainee__participant_32,sea_spikes,1,hist_gradient_boosting,3,14.0,25.99040888087854,-11.99040888087854,11.99040888087854
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_32_glove cut_1.csv,trainee,32,trainee__participant_32,glove_cut,1,hist_gradient_boosting,3,13.0,18.478387626688864,-5.478387626688864,5.478387626688864
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_camera target_1.csv,expert,6,expert__participant_6,camera_target,1,hist_gradient_boosting,3,25.0,23.889106634126815,1.110893365873185,1.110893365873185
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_glove cut_1.csv,expert,6,expert__participant_6,glove_cut,1,hist_gradient_boosting,3,23.0,21.29859051130189,1.7014094886981113,1.7014094886981113
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_ring rollercoaster_1.csv,expert,6,expert__participant_6,ring_rollercoaster,1,hist_gradient_boosting,3,23.0,21.902351194739776,1.0976488052602242,1.0976488052602242
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_sea spikes_1.csv,expert,6,expert__participant_6,sea_spikes,1,hist_gradient_boosting,3,23.0,20.776783015902467,2.223216984097533,2.223216984097533
+DVST_XI_7-11_Jul_2025_10_09.40.17_expert_6_suture_1.csv,expert,6,expert__participant_6,suture,1,hist_gradient_boosting,3,26.0,25.23652440575323,0.7634755942467706,0.7634755942467706
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_glove cut_1.csv,trainee,15,trainee__participant_15,glove_cut,1,hist_gradient_boosting,3,17.0,17.824343227261583,-0.8243432272615827,0.8243432272615827
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_ring rollercoaster_1.csv,trainee,15,trainee__participant_15,ring_rollercoaster,1,hist_gradient_boosting,3,18.0,18.579079305771693,-0.5790793057716925,0.5790793057716925
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_sea spikes_1.csv,trainee,15,trainee__participant_15,sea_spikes,1,hist_gradient_boosting,3,20.0,16.69299059780654,3.3070094021934615,3.3070094021934615
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_15_suture_1.csv,trainee,15,trainee__participant_15,suture,1,hist_gradient_boosting,3,15.0,18.880401726314236,-3.8804017263142363,3.8804017263142363
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_camera target_1.csv,trainee,13,trainee__participant_13,camera_target,1,hist_gradient_boosting,3,19.0,19.8254200291497,-0.8254200291497007,0.8254200291497007
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_glove cut_1.csv,trainee,13,trainee__participant_13,glove_cut,1,hist_gradient_boosting,3,23.0,21.201428058044158,1.7985719419558421,1.7985719419558421
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_ring rollercoaster_1.csv,trainee,13,trainee__participant_13,ring_rollercoaster,1,hist_gradient_boosting,3,17.0,20.381413487468507,-3.3814134874685067,3.3814134874685067
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_sea spikes_1.csv,trainee,13,trainee__participant_13,sea_spikes,1,hist_gradient_boosting,3,17.0,21.136873387385453,-4.136873387385453,4.136873387385453
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_13_suture_1.csv,trainee,13,trainee__participant_13,suture,1,hist_gradient_boosting,3,23.0,19.478719438212078,3.521280561787922,3.521280561787922
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_15_camera target_1.csv,trainee,15,trainee__participant_15,camera_target,1,hist_gradient_boosting,3,18.0,19.230262870916366,-1.2302628709163663,1.2302628709163663
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_13_sea spikes_2.csv,trainee,13,trainee__participant_13,sea_spikes,2,hist_gradient_boosting,3,21.0,23.419921435156095,-2.4199214351560947,2.4199214351560947
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_13_suture_2.csv,trainee,13,trainee__participant_13,suture,2,hist_gradient_boosting,3,28.0,21.888888064001073,6.111111935998927,6.111111935998927
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_15_sea spikes_2.csv,trainee,15,trainee__participant_15,sea_spikes,2,hist_gradient_boosting,3,23.0,20.57802748553277,2.4219725144672317,2.4219725144672317
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_15_suture_2.csv,trainee,15,trainee__participant_15,suture,2,hist_gradient_boosting,3,26.0,20.686463172304748,5.313536827695252,5.313536827695252
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_13_camera target_2.csv,trainee,13,trainee__participant_13,camera_target,2,hist_gradient_boosting,3,17.0,24.514660437598145,-7.514660437598145,7.514660437598145
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_18_camera target_2.csv,trainee,18,trainee__participant_18,camera_target,2,hist_gradient_boosting,3,18.0,22.266674993739404,-4.266674993739404,4.266674993739404
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_18_suture_1.csv,trainee,18,trainee__participant_18,suture,1,hist_gradient_boosting,3,12.0,17.72351254713323,-5.723512547133229,5.723512547133229
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_glove cut_2.csv,trainee,18,trainee__participant_18,glove_cut,2,hist_gradient_boosting,3,22.0,22.344843051059357,-0.34484305105935675,0.34484305105935675
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_ring rollercoaster_2.csv,trainee,18,trainee__participant_18,ring_rollercoaster,2,hist_gradient_boosting,3,24.0,20.624876236534682,3.375123763465318,3.375123763465318
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_sea spikes_2.csv,trainee,18,trainee__participant_18,sea_spikes,2,hist_gradient_boosting,3,22.0,20.85740151026603,1.1425984897339703,1.1425984897339703
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_18_suture_2.csv,trainee,18,trainee__participant_18,suture,2,hist_gradient_boosting,3,22.0,20.14555931774024,1.85444068225976,1.85444068225976
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_camera target_1.csv,expert,5,expert__participant_5,camera_target,1,hist_gradient_boosting,4,30.0,21.690154943135003,8.309845056864997,8.309845056864997
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_glove cut_1.csv,expert,5,expert__participant_5,glove_cut,1,hist_gradient_boosting,4,24.0,19.113505473461323,4.8864945265386766,4.8864945265386766
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_ring rollercoaster_1.csv,expert,5,expert__participant_5,ring_rollercoaster,1,hist_gradient_boosting,4,24.0,19.274780120891585,4.7252198791084155,4.7252198791084155
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_sea spikes_1.csv,expert,5,expert__participant_5,sea_spikes,1,hist_gradient_boosting,4,24.0,20.608857239476883,3.391142760523117,3.391142760523117
+DVST_XI_19-22_May_2025_21_09.43.23_expert_5_suture_1.csv,expert,5,expert__participant_5,suture,1,hist_gradient_boosting,4,29.0,19.603086005923807,9.396913994076193,9.396913994076193
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_camera target_2.csv,trainee,40,trainee__participant_40,camera_target,2,hist_gradient_boosting,4,24.0,22.13314548209463,1.8668545179053702,1.8668545179053702
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_40_glove cut_2.csv,trainee,40,trainee__participant_40,glove_cut,2,hist_gradient_boosting,4,24.0,21.34329990576497,2.656700094235031,2.656700094235031
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_camera target_1.csv,trainee,33,trainee__participant_33,camera_target,1,hist_gradient_boosting,4,23.0,21.160508057280758,1.839491942719242,1.839491942719242
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_ring rollercoaster_1.csv,trainee,33,trainee__participant_33,ring_rollercoaster,1,hist_gradient_boosting,4,21.0,19.4368311501613,1.5631688498387,1.5631688498387
+DVST_XI_6-8_Mar_2025_06_10.41.14_trainee_33_sea spikes_1.csv,trainee,33,trainee__participant_33,sea_spikes,1,hist_gradient_boosting,4,16.0,20.568744227858357,-4.568744227858357,4.568744227858357
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_camera target_2.csv,trainee,33,trainee__participant_33,camera_target,2,hist_gradient_boosting,4,19.0,20.37051813933709,-1.37051813933709,1.37051813933709
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_glove cut_1.csv,trainee,33,trainee__participant_33,glove_cut,1,hist_gradient_boosting,4,18.0,19.087404246255055,-1.0874042462550548,1.0874042462550548
+DVST_XI_6-8_Mar_2025_07_11.56.53_trainee_33_sea spikes_2.csv,trainee,33,trainee__participant_33,sea_spikes,2,hist_gradient_boosting,4,20.0,19.211366562332472,0.7886334376675279,0.7886334376675279
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_camera target_1.csv,expert,3,expert__participant_3,camera_target,1,hist_gradient_boosting,4,27.0,23.010593206291755,3.9894067937082447,3.9894067937082447
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_ring rollercoaster_1.csv,expert,3,expert__participant_3,ring_rollercoaster,1,hist_gradient_boosting,4,21.0,20.877767728705724,0.12223227129427627,0.12223227129427627
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_sea spikes_1.csv,expert,3,expert__participant_3,sea_spikes,1,hist_gradient_boosting,4,23.0,21.298461366727825,1.7015386332721754,1.7015386332721754
+DVST_XI_6-8_Mar_2025_08_08.21.32_expert_3_suture_1.csv,expert,3,expert__participant_3,suture,1,hist_gradient_boosting,4,28.0,23.906902667584216,4.093097332415784,4.093097332415784
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_7_ring rollercoaster_1.csv,trainee,7,trainee__participant_7,ring_rollercoaster,1,hist_gradient_boosting,4,15.0,15.517959649508875,-0.5179596495088745,0.5179596495088745
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_7_sea spikes_1.csv,trainee,7,trainee__participant_7,sea_spikes,1,hist_gradient_boosting,4,19.0,16.057856889157776,2.942143110842224,2.942143110842224
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_9_ring rollercoaster_1.csv,trainee,9,trainee__participant_9,ring_rollercoaster,1,hist_gradient_boosting,4,14.0,18.961967622861376,-4.961967622861376,4.961967622861376
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_9_sea spikes_1.csv,trainee,9,trainee__participant_9,sea_spikes,1,hist_gradient_boosting,4,18.0,18.672232272948037,-0.6722322729480368,0.6722322729480368
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_7_camera target_1.csv,trainee,7,trainee__participant_7,camera_target,1,hist_gradient_boosting,4,17.0,19.196247925496856,-2.1962479254968557,2.1962479254968557
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_7_glove cut_1.csv,trainee,7,trainee__participant_7,glove_cut,1,hist_gradient_boosting,4,15.0,17.772851542804244,-2.7728515428042435,2.7728515428042435
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_9_camera target_1.csv,trainee,9,trainee__participant_9,camera_target,1,hist_gradient_boosting,4,19.0,20.205748553404096,-1.2057485534040957,1.2057485534040957
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_9_glove cut_1.csv,trainee,9,trainee__participant_9,glove_cut,1,hist_gradient_boosting,4,18.0,18.265718124462012,-0.26571812446201193,0.26571812446201193
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_7_suture_1.csv,trainee,7,trainee__participant_7,suture,1,hist_gradient_boosting,4,17.0,18.441296859791677,-1.4412968597916773,1.4412968597916773
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_9_suture_1.csv,trainee,9,trainee__participant_9,suture,1,hist_gradient_boosting,4,16.0,18.3297977385249,-2.329797738524899,2.329797738524899
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_ring rollercoaster_2.csv,trainee,7,trainee__participant_7,ring_rollercoaster,2,hist_gradient_boosting,4,18.0,19.591969524004607,-1.5919695240046075,1.5919695240046075
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_7_sea spikes_2.csv,trainee,7,trainee__participant_7,sea_spikes,2,hist_gradient_boosting,4,20.0,19.040637012614688,0.9593629873853118,0.9593629873853118
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_ring rollercoaster_2.csv,trainee,9,trainee__participant_9,ring_rollercoaster,2,hist_gradient_boosting,4,20.0,20.264813636605545,-0.26481363660554535,0.26481363660554535
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_9_sea spikes_2.csv,trainee,9,trainee__participant_9,sea_spikes,2,hist_gradient_boosting,4,22.0,20.257869602367418,1.7421303976325824,1.7421303976325824
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_glove cut_1.csv,trainee,12,trainee__participant_12,glove_cut,1,hist_gradient_boosting,4,21.0,16.551195458755387,4.448804541244613,4.448804541244613
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_ring rollercoaster_1.csv,trainee,12,trainee__participant_12,ring_rollercoaster,1,hist_gradient_boosting,4,16.0,19.50950197870865,-3.5095019787086486,3.5095019787086486
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_12_sea spikes_1.csv,trainee,12,trainee__participant_12,sea_spikes,1,hist_gradient_boosting,4,12.0,18.085526661512574,-6.085526661512574,6.085526661512574
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_glove cut_1.csv,trainee,16,trainee__participant_16,glove_cut,1,hist_gradient_boosting,4,15.0,17.658952371873426,-2.6589523718734256,2.6589523718734256
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_ring rollercoaster_1.csv,trainee,16,trainee__participant_16,ring_rollercoaster,1,hist_gradient_boosting,4,20.0,17.621946386722392,2.378053613277608,2.378053613277608
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_sea spikes_1.csv,trainee,16,trainee__participant_16,sea_spikes,1,hist_gradient_boosting,4,16.0,16.38294207981128,-0.38294207981127926,0.38294207981127926
+DVST_XI_Griffin_16-19_07_2024_16_08.46.09_trainee_16_suture_1.csv,trainee,16,trainee__participant_16,suture,1,hist_gradient_boosting,4,21.0,16.05506633753997,4.944933662460031,4.944933662460031
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_12_camera target_1.csv,trainee,12,trainee__participant_12,camera_target,1,hist_gradient_boosting,4,16.0,21.544643511185217,-5.5446435111852175,5.5446435111852175
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_16_camera target_1.csv,trainee,16,trainee__participant_16,camera_target,1,hist_gradient_boosting,4,23.0,19.500497506418743,3.4995024935812573,3.4995024935812573
+DVST_XI_Griffin_16-19_07_2024_17_12.20.23_trainee_16_ring rollercoaster_2.csv,trainee,16,trainee__participant_16,ring_rollercoaster,2,hist_gradient_boosting,4,23.0,19.40760977477175,3.5923902252282502,3.5923902252282502
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_12_suture_2.csv,trainee,12,trainee__participant_12,suture,2,hist_gradient_boosting,4,28.0,21.850575284870274,6.149424715129726,6.149424715129726
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_16_sea spikes_2.csv,trainee,16,trainee__participant_16,sea_spikes,2,hist_gradient_boosting,4,21.0,19.792709057122078,1.207290942877922,1.207290942877922
+DVST_XI_Griffin_16-19_07_2024_18_08.46.52_trainee_16_suture_2.csv,trainee,16,trainee__participant_16,suture,2,hist_gradient_boosting,4,29.0,20.646285259529943,8.353714740470057,8.353714740470057
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_12_glove cut_2.csv,trainee,12,trainee__participant_12,glove_cut,2,hist_gradient_boosting,4,20.0,17.630935351862856,2.369064648137144,2.369064648137144
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_16_camera target_2.csv,trainee,16,trainee__participant_16,camera_target,2,hist_gradient_boosting,4,23.0,18.711330485947745,4.2886695140522555,4.2886695140522555
+DVST_XI_Griffin_16-19_07_2024_19_09.39.41_trainee_16_glove cut_2.csv,trainee,16,trainee__participant_16,glove_cut,2,hist_gradient_boosting,4,24.0,17.195460228599984,6.804539771400016,6.804539771400016
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_camera target_1.csv,expert,10,expert__participant_10,camera_target,1,hist_gradient_boosting,5,30.0,25.730246028625388,4.269753971374612,4.269753971374612
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_glove cut_1.csv,expert,10,expert__participant_10,glove_cut,1,hist_gradient_boosting,5,28.0,24.908714137222564,3.091285862777436,3.091285862777436
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_ring rollercoaster_1.csv,expert,10,expert__participant_10,ring_rollercoaster,1,hist_gradient_boosting,5,29.0,21.87534419331784,7.12465580668216,7.12465580668216
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_sea spikes_1.csv,expert,10,expert__participant_10,sea_spikes,1,hist_gradient_boosting,5,29.0,22.189408453398915,6.810591546601085,6.810591546601085
+DVST_XI_10-13_Nov_2025_12_10.36.46_expert_10_suture_1.csv,expert,10,expert__participant_10,suture,1,hist_gradient_boosting,5,30.0,24.753458204927252,5.246541795072748,5.246541795072748
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_camera target_1.csv,trainee,1,trainee__participant_1,camera_target,1,hist_gradient_boosting,5,17.0,19.084748876262907,-2.084748876262907,2.084748876262907
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_glove cut_1.csv,trainee,1,trainee__participant_1,glove_cut,1,hist_gradient_boosting,5,15.0,16.513342685470032,-1.5133426854700325,1.5133426854700325
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_ring rollercoaster_1.csv,trainee,1,trainee__participant_1,ring_rollercoaster,1,hist_gradient_boosting,5,14.0,18.451453629703895,-4.451453629703895,4.451453629703895
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_sea spikes_1.csv,trainee,1,trainee__participant_1,sea_spikes,1,hist_gradient_boosting,5,13.0,16.53983103247276,-3.5398310324727618,3.5398310324727618
+DVST_XI_14-16_Feb_2024_14_09.13.16_trainee_1_suture_1.csv,trainee,1,trainee__participant_1,suture,1,hist_gradient_boosting,5,19.0,17.59674211658572,1.4032578834142804,1.4032578834142804
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_camera target_2.csv,trainee,1,trainee__participant_1,camera_target,2,hist_gradient_boosting,5,19.0,18.071952289616675,0.9280477103833249,0.9280477103833249
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_glove cut_2.csv,trainee,1,trainee__participant_1,glove_cut,2,hist_gradient_boosting,5,19.0,18.306543621530448,0.693456378469552,0.693456378469552
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_ring rollercoaster_2.csv,trainee,1,trainee__participant_1,ring_rollercoaster,2,hist_gradient_boosting,5,20.0,19.120920774312864,0.8790792256871356,0.8790792256871356
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_sea spikes_2.csv,trainee,1,trainee__participant_1,sea_spikes,2,hist_gradient_boosting,5,19.0,20.282459613089415,-1.282459613089415,1.282459613089415
+DVST_XI_14-16_Feb_2024_16_08.32.59_trainee_1_suture_2.csv,trainee,1,trainee__participant_1,suture,2,hist_gradient_boosting,5,17.0,18.602248032400894,-1.6022480324008939,1.6022480324008939
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_camera target_2.csv,trainee,39,trainee__participant_39,camera_target,2,hist_gradient_boosting,5,19.0,23.906000466150715,-4.906000466150715,4.906000466150715
+DVST_XI_19-22_May_2025_22_09.34.36_trainee_39_glove cut_2.csv,trainee,39,trainee__participant_39,glove_cut,2,hist_gradient_boosting,5,22.0,20.33847899640704,1.6615210035929593,1.6615210035929593
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_camera target_1.csv,expert,2,expert__participant_2,camera_target,1,hist_gradient_boosting,5,25.0,23.813967717028323,1.1860322829716772,1.1860322829716772
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_glove cut_1.csv,expert,2,expert__participant_2,glove_cut,1,hist_gradient_boosting,5,19.0,16.862366483419866,2.1376335165801343,2.1376335165801343
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_ring rollercoaster_1.csv,expert,2,expert__participant_2,ring_rollercoaster,1,hist_gradient_boosting,5,20.0,19.818400005573036,0.18159999442696417,0.18159999442696417
+DVST_XI_6-8_Mar_2025_07_11.56.53_expert_2_sea spikes_1.csv,expert,2,expert__participant_2,sea_spikes,1,hist_gradient_boosting,5,18.0,19.35090888115471,-1.3509088811547088,1.3509088811547088
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_10_ring rollercoaster_1.csv,trainee,10,trainee__participant_10,ring_rollercoaster,1,hist_gradient_boosting,5,14.0,18.886733501596474,-4.886733501596474,4.886733501596474
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_10_sea spikes_1.csv,trainee,10,trainee__participant_10,sea_spikes,1,hist_gradient_boosting,5,22.0,17.648608320370187,4.351391679629813,4.351391679629813
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_6_ring rollercoaster_1.csv,trainee,6,trainee__participant_6,ring_rollercoaster,1,hist_gradient_boosting,5,16.0,20.129916820400965,-4.129916820400965,4.129916820400965
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_6_sea spikes_1.csv,trainee,6,trainee__participant_6,sea_spikes,1,hist_gradient_boosting,5,16.0,17.18305174134725,-1.1830517413472492,1.1830517413472492
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_8_ring rollercoaster_1.csv,trainee,8,trainee__participant_8,ring_rollercoaster,1,hist_gradient_boosting,5,12.0,16.514807455256108,-4.514807455256108,4.514807455256108
+DVST_XI_7-11_Mar_2024_08_13.12.17_trainee_8_sea spikes_1.csv,trainee,8,trainee__participant_8,sea_spikes,1,hist_gradient_boosting,5,18.0,17.864722108954002,0.1352778910459982,0.1352778910459982
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_10_glove cut_1.csv,trainee,10,trainee__participant_10,glove_cut,1,hist_gradient_boosting,5,18.0,15.47897050631924,2.5210294936807607,2.5210294936807607
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_6_camera target_1.csv,trainee,6,trainee__participant_6,camera_target,1,hist_gradient_boosting,5,16.0,18.833559503884434,-2.833559503884434,2.833559503884434
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_6_glove cut_1.csv,trainee,6,trainee__participant_6,glove_cut,1,hist_gradient_boosting,5,15.0,15.56877094616989,-0.5687709461698898,0.5687709461698898
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_8_camera target_1.csv,trainee,8,trainee__participant_8,camera_target,1,hist_gradient_boosting,5,10.0,13.890496534613229,-3.890496534613229,3.890496534613229
+DVST_XI_7-11_Mar_2024_09_10.19.01_trainee_8_glove cut_1.csv,trainee,8,trainee__participant_8,glove_cut,1,hist_gradient_boosting,5,17.0,17.6551787406904,-0.655178740690399,0.655178740690399
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_10_suture_1.csv,trainee,10,trainee__participant_10,suture,1,hist_gradient_boosting,5,19.0,19.855429626726785,-0.8554296267267851,0.8554296267267851
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_6_suture_1.csv,trainee,6,trainee__participant_6,suture,1,hist_gradient_boosting,5,12.0,18.81811859761636,-6.818118597616358,6.818118597616358
+DVST_XI_7-11_Mar_2024_09_13.46.11_trainee_8_suture_1.csv,trainee,8,trainee__participant_8,suture,1,hist_gradient_boosting,5,17.0,19.89911620813422,-2.8991162081342203,2.8991162081342203
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_ring rollercoaster_2.csv,trainee,10,trainee__participant_10,ring_rollercoaster,2,hist_gradient_boosting,5,18.0,18.86528320498868,-0.8652832049886783,0.8652832049886783
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_10_sea spikes_2.csv,trainee,10,trainee__participant_10,sea_spikes,2,hist_gradient_boosting,5,22.0,19.3695943287556,2.6304056712444,2.6304056712444
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_ring rollercoaster_2.csv,trainee,6,trainee__participant_6,ring_rollercoaster,2,hist_gradient_boosting,5,18.0,21.54537618482459,-3.5453761848245904,3.5453761848245904
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_6_sea spikes_2.csv,trainee,6,trainee__participant_6,sea_spikes,2,hist_gradient_boosting,5,20.0,20.925215038501463,-0.925215038501463,0.925215038501463
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_ring rollercoaster_2.csv,trainee,8,trainee__participant_8,ring_rollercoaster,2,hist_gradient_boosting,5,16.0,17.694916090612413,-1.6949160906124128,1.6949160906124128
+DVST_XI_7-11_Mar_2024_10_08.59.30_trainee_8_sea spikes_2.csv,trainee,8,trainee__participant_8,sea_spikes,2,hist_gradient_boosting,5,20.0,18.30582907152412,1.6941709284758808,1.6941709284758808
+DVST_XI_Griffin_29_sep-1_oct_2024_01_10.39.05_trainee_20_camera target_2.csv,trainee,20,trainee__participant_20,camera_target,2,hist_gradient_boosting,5,14.0,18.32388902963545,-4.323889029635449,4.323889029635449
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_20_camera target_1.csv,trainee,20,trainee__participant_20,camera_target,1,hist_gradient_boosting,5,15.0,18.29963132800614,-3.2996313280061393,3.2996313280061393
+DVST_XI_Griffin_29_sep-1_oct_2024_29_09.07.40_trainee_20_suture_1.csv,trainee,20,trainee__participant_20,suture,1,hist_gradient_boosting,5,13.0,16.650088727488566,-3.6500887274885656,3.6500887274885656
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_glove cut_2.csv,trainee,20,trainee__participant_20,glove_cut,2,hist_gradient_boosting,5,17.0,17.51209271599675,-0.5120927159967508,0.5120927159967508
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_ring rollercoaster_2.csv,trainee,20,trainee__participant_20,ring_rollercoaster,2,hist_gradient_boosting,5,21.0,17.611525458652213,3.3884745413477866,3.3884745413477866
+DVST_XI_Griffin_29_sep-1_oct_2024_30_12.18.00_trainee_20_sea spikes_2.csv,trainee,20,trainee__participant_20,sea_spikes,2,hist_gradient_boosting,5,21.0,20.24788922406481,0.7521107759351899,0.7521107759351899

@@ -1,0 +1,21 @@
+model,cv_fold,inner_best_mae,best_parameters
+dummy_mean,1,,{}
+dummy_mean,2,,{}
+dummy_mean,3,,{}
+dummy_mean,4,,{}
+dummy_mean,5,,{}
+linear_regression,1,,{}
+linear_regression,2,,{}
+linear_regression,3,,{}
+linear_regression,4,,{}
+linear_regression,5,,{}
+ridge,1,2.949508483287944,"{""model__alpha"": 1000.0}"
+ridge,2,3.1670005201413116,"{""model__alpha"": 100.0}"
+ridge,3,3.099777823646728,"{""model__alpha"": 100.0}"
+ridge,4,3.3257964747512156,"{""model__alpha"": 1000.0}"
+ridge,5,3.0573454041035912,"{""model__alpha"": 1000.0}"
+elastic_net,1,3.0430512175626667,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.1}"
+elastic_net,2,3.189369078206238,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.5}"
+elastic_net,3,3.0295474792043287,"{""model__alpha"": 0.1, ""model__l1_ratio"": 0.5}"
+elastic_net,4,3.1276182401626262,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.5}"
+elastic_net,5,3.1072510519201817,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.5}"
